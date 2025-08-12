@@ -8,6 +8,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration;
 import org.springframework.cache.annotation.EnableCaching;
+import org.springframework.context.ApplicationListener;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.scheduling.annotation.EnableScheduling;
@@ -34,7 +35,7 @@ public class AdminApplication {
     public static void main(String[] args) {
         SpringApplication application = new SpringApplication(AdminApplication.class);
         // 添加 日志监听器，使 log4j2-spring.xml 可以间接读取到配置文件的属性
-        application.addListeners(new LogVariableListener(), new Ip2RegionListener());
+        application.addListeners((ApplicationListener<?>) new LogVariableListener(), (ApplicationListener<?>) new Ip2RegionListener());
         application.run(args);
     }
 }
