@@ -13,15 +13,6 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
-/**
- * SmartAdmin 项目启动类
- *
- * @Author 1024创新实验室-主任:卓大
- * @Date 2022-08-29 21:00:58
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
- */
 @EnableCaching
 @EnableScheduling
 @EnableAspectJAutoProxy(proxyTargetClass = true, exposeProxy = true)
