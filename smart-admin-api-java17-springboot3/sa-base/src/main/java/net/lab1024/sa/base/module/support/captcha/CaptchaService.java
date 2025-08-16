@@ -21,12 +21,6 @@ import java.util.Objects;
 
 /**
  * 图形验证码 服务
- *
- * @Author 1024创新实验室: 胡克
- * @Date 2021/8/31 20:52
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Slf4j
 @Service
