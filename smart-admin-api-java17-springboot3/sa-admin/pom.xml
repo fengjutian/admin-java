@@ -18,6 +18,12 @@
     <dependencies>
 
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+
+        <dependency>
             <groupId>net.lab1024</groupId>
             <artifactId>sa-base</artifactId>
             <version>3.0.0</version>
