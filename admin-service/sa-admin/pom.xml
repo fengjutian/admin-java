@@ -22,29 +22,16 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-
-        <dependency>
-            <groupId>net.lab1024</groupId>
-            <artifactId>sa-base</artifactId>
-            <version>3.0.0</version>
-        </dependency>
         <dependency>
             <groupId>net.lab1024</groupId>
             <artifactId>sa-base</artifactId>
             <version>3.0.0</version>
             <scope>compile</scope>
         </dependency>
+        
         <dependency>
-            <groupId>net.lab1024</groupId>
-            <artifactId>sa-base</artifactId>
-            <version>3.0.0</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>net.lab1024</groupId>
-            <artifactId>sa-base</artifactId>
-            <version>3.0.0</version>
-            <scope>compile</scope>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
 
     </dependencies>
@@ -67,5 +54,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
