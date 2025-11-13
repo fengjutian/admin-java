@@ -1,11 +1,5 @@
 /*
  * 缓存
- *
- * @Author:    罗伊
- * @Date:      2022-09-03 21:51:34
- * @Wechat:    zhuda1024
- * @Email:     lab1024@163.com
- * @Copyright  1024创新实验室 （ https://1024lab.net ），Since 2012
  */
 import {getRequest} from '/@/lib/axios';
 
