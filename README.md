@@ -1,6 +1,6 @@
-﻿### **SmartAdmin**
+﻿### **xxx**
 
-**SmartAdmin** 由 **中国·洛阳** [](https://www.1024lab.net/) 基于SpringBoot2/3+Sa-Token+Mybatis-Plus 和 Vue3+Ant Design Vue+Uni-App+Uni-UI，并以 <font color="#DC143C">**「高质量代码」为核心，「简洁、高效、安全」**</font>的快速开发平台。
+**xxx** 由 **中国·洛阳** [](https://www.1024lab.net/) 基于SpringBoot2/3+Sa-Token+Mybatis-Plus 和 Vue3+Ant Design Vue+Uni-App+Uni-UI，并以 <font color="#DC143C">**「高质量代码」为核心，「简洁、高效、安全」**</font>的快速开发平台。
 
 **<font color="#DC143C">国内首个满足《网络安全-三级等保》、《数据安全》</font>** 功能要求，支持登录限制、接口国产加解密、数据脱敏等一系列安全要求。
 
@@ -62,7 +62,7 @@
 - **日志、监控**：服务器心跳日志、登录日志、操作日志（IP、浏览器、操作系统等设备信息）
 - **系统功能**：员工、部门、角色、权限、菜单、水印、文件管理、系统参数、数据字典、单号生成 等
 - **代码生成**： 基于每个表的配置、在线预览代码、下载 等
-- **以上只是一些举例，更多灿若繁星的惊喜和细节，等待着你的发现！**：[SmartAdmin 业内独有功能亮点](https://smartadmin.vip)
+- **以上只是一些举例，更多灿若繁星的惊喜和细节，等待着你的发现！**：[xxx 业内独有功能亮点](https://smartadmin.vip)
 
 
 ### **代码亮点**

@@ -4,7 +4,7 @@
 -->
 <template>
   <div class="version">
-    <a target="_blank" class="smart-copyright" href="https://www.1024lab.net"> ©2012-{{ currentYear }} SmartAdmin |  </a>
+    <a target="_blank" class="smart-copyright" href="https://www.1024lab.net"> ©2012-{{ currentYear }} xxx |  </a>
   </div>
 </template>
 <script setup lang="ts">

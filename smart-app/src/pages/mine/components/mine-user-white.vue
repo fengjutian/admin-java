@@ -12,7 +12,7 @@
   <view class="vip-card">
     <view class="card-left">
       <image class="vip-icon" src="/static/images/mine/vip-icon.png" mode=""></image>
-      <view class=""> SmartAdmin </view>
+      <view class=""> xxx </view>
     </view>
     <image class="open-vip" src="/static/images/mine/open-vip.png" mode=""></image>
   </view>

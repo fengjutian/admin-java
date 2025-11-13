@@ -68,7 +68,7 @@ public class SwaggerConfig {
         return new OpenAPI()
                 .components(components())
                 .info(new Info()
-                        .title("SmartAdmin 3.X 接口文档")
+                        .title("xxx 3.X 接口文档")
                         .contact(new Contact().name("1024创新实验室").email("lab1024@163.com").url("https://1024lab.net"))
                         .version("v3.X")
                         .description("<font color=\"#DC143C\">**以「高质量代码」为核心，「简洁、高效、安全」**</font>基于 SpringBoot + Sa-Token + Mybatis-Plus 和 Vue3 + Vite5 + Ant Design (同时支持JavaScript和TypeScript双版本) 的快速开发平台。" +

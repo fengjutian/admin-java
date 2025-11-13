@@ -14,7 +14,7 @@
       <div class="welcome">
         <p>欢迎登录 xxx</p>
         <p class="desc">
-          SmartAdmin 是由 河南·洛阳
+          xxx 是由 河南·洛阳
           <a target="_blank" href="https://www.1024lab.net" style="color: white; weight: bolder; font-size: 15px; text-decoration: underline"
             >（1024Lab）</a
           >
@@ -163,7 +163,7 @@
 
     notification['success']({
       message: '温馨提示',
-      description: 'SmartAdmin 提供 9种 登录背景风格哦！',
+      description: 'xxx 提供 9种 登录背景风格哦！',
       duration: 8,
       onClick: () => {},
       btn: () =>

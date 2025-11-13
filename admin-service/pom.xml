@@ -8,7 +8,7 @@
     <packaging>pom</packaging>
 
     <name>sa-parent</name>
-    <description>SmartAdmin project</description>
+    <description>xxx project</description>
 
 	<modules>
         <module>sa-base</module>
