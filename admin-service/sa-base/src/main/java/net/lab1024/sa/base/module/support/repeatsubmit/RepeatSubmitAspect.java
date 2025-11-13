@@ -28,11 +28,6 @@ import java.lang.reflect.Method;
  * 若假设 方法执行时间为 100ms，若 intervalMilliSecond = 50，则 同一时间内可能会有2个请求同时在执行！<br>
  * 若假设 方法执行时间为 100ms，若 intervalMilliSecond = 200，则 同一时间内只能有1请求执行，且执行完后100ms，才会执行下一次请求<br>
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2025-07-26 23:56:58
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Aspect
 @Slf4j
