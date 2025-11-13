@@ -1,11 +1,6 @@
 ﻿<!--
   *  意见反馈提交弹窗
   *
-  * @Author:    -主任：卓大
-  * @Date:      2022-09-06 20:40:16
-  * @Wechat:    zhuda1024
-  * @Email:     lab1024@163.com
-  * @Copyright   （ https://1024lab.net ），Since 2012
 -->
 <template>
   <a-modal :open="visible" title="意见反馈" :closable="false" :maskClosable="true" >

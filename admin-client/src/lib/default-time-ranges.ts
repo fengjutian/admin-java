@@ -1,11 +1,6 @@
 ﻿/*
  * 时间选择框快捷选择
  *
- * @Author:    -主任：卓大
- * @Date:      2022-09-06 20:49:28
- * @Wechat:    zhuda1024
- * @Email:     lab1024@163.com
- * @Copyright   （ https://1024lab.net ），Since 2012
  */
 
 import dayjs from 'dayjs';

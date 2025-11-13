@@ -1,11 +1,6 @@
 ﻿<!--
   * 递归菜单
   *
-  * @Author:    -主任：卓大
-  * @Date:      2022-09-06 20:29:12
-  * @Wechat:    zhuda1024
-  * @Email:     lab1024@163.com
-  * @Copyright   （ https://1024lab.net ），Since 2012
 -->
 <template>
   <div class="recursion-container" v-show="topMenu.children && topMenu.children.length > 0">

@@ -1,9 +1,6 @@
 ﻿<!--
   * 接口加密、解密
   *
-  * @Author:    -主任-卓大
-  * @Date:      2023-10-17 22:02:37
-  * @Copyright  
 -->
 <template>
   <a-alert closable>

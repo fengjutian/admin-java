@@ -1,11 +1,5 @@
 ﻿<!--
   * 设置模块
-  *
-  * @Author:    -主任：卓大
-  * @Date:      2022-09-06 20:18:20
-  * @Wechat:    zhuda1024
-  * @Email:     lab1024@163.com
-  * @Copyright   （ https://1024lab.net ），Since 2012
 -->
 
 <template>

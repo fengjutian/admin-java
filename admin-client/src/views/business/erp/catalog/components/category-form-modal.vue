@@ -1,11 +1,6 @@
 ﻿<!--
   * 目录 表单 弹窗
   * 
-  * @Author:    -主任：卓大 
-  * @Date:      2022-08-21 19:52:43 
-  * @Wechat:    zhuda1024 
-  * @Email:     lab1024@163.com 
-  * @Copyright   （ https://1024lab.net ），Since 2012 
 -->
 <template>
   <a-modal :open="visible" :title="form.categoryId ? '编辑' : '添加'" ok-text="确认" cancel-text="取消" @ok="onSubmit" @cancel="onClose">

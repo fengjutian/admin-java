@@ -1,6 +1,11 @@
 package net.lab1024.sa.base.module.support.helpdoc.service;
 
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+
 import jakarta.annotation.Resource;
 import net.lab1024.sa.base.common.domain.PageResult;
 import net.lab1024.sa.base.common.domain.RequestUser;
@@ -13,18 +18,9 @@ import net.lab1024.sa.base.module.support.helpdoc.domain.form.HelpDocViewRecordQ
 import net.lab1024.sa.base.module.support.helpdoc.domain.vo.HelpDocDetailVO;
 import net.lab1024.sa.base.module.support.helpdoc.domain.vo.HelpDocVO;
 import net.lab1024.sa.base.module.support.helpdoc.domain.vo.HelpDocViewRecordVO;
-import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 /**
  * 用户查看  帮助文档
- *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2022-08-20 23:11:42
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Service
 public class HelpDocUserService {

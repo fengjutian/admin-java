@@ -1,22 +1,16 @@
 package net.lab1024.sa.base.module.support.reload.core;
 
 
-import net.lab1024.sa.base.module.support.reload.core.domain.SmartReloadItem;
-import net.lab1024.sa.base.module.support.reload.core.domain.SmartReloadObject;
-import net.lab1024.sa.base.module.support.reload.core.domain.SmartReloadResult;
-
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+import net.lab1024.sa.base.module.support.reload.core.domain.SmartReloadItem;
+import net.lab1024.sa.base.module.support.reload.core.domain.SmartReloadObject;
+import net.lab1024.sa.base.module.support.reload.core.domain.SmartReloadResult;
+
 /**
  * 检测是否 Reload 的类
- *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2015-03-02 19:11:52
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 public abstract class AbstractSmartReloadCommand {
 

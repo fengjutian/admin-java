@@ -1,5 +1,11 @@
 package net.lab1024.sa.base.module.support.helpdoc.service;
 
+import java.util.List;
+import java.util.Optional;
+
+import org.apache.commons.collections4.CollectionUtils;
+import org.springframework.stereotype.Service;
+
 import jakarta.annotation.Resource;
 import net.lab1024.sa.base.common.domain.ResponseDTO;
 import net.lab1024.sa.base.common.util.SmartBeanUtil;
@@ -10,20 +16,9 @@ import net.lab1024.sa.base.module.support.helpdoc.domain.form.HelpDocCatalogAddF
 import net.lab1024.sa.base.module.support.helpdoc.domain.form.HelpDocCatalogUpdateForm;
 import net.lab1024.sa.base.module.support.helpdoc.domain.vo.HelpDocCatalogVO;
 import net.lab1024.sa.base.module.support.helpdoc.domain.vo.HelpDocVO;
-import org.apache.commons.collections4.CollectionUtils;
-import org.springframework.stereotype.Service;
-
-import java.util.List;
-import java.util.Optional;
 
 /**
  * 帮助文档 目录
- *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2022-08-20 23:11:42
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Service
 public class HelpDocCatalogService {

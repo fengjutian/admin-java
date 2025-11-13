@@ -6,12 +6,6 @@ import lombok.Data;
 
 /**
  * 更新 帮助文档
- *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2022-08-20 23:11:42
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Data
 public class HelpDocUpdateForm extends HelpDocAddForm {

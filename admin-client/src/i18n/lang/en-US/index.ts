@@ -1,11 +1,5 @@
 ﻿/*
  * 英文国际化
- *
- * @Author:    -主任：卓大
- * @Date:      2022-09-06 20:00:57
- * @Wechat:    zhuda1024
- * @Email:     lab1024@163.com
- * @Copyright   （ https://1024lab.net ），Since 2012
  */
 import antd from 'ant-design-vue/es/locale/en_US';
 import dayjs from 'dayjs/locale/eu';

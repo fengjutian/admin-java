@@ -1,11 +1,6 @@
 ﻿<!--
   *  展开菜单模式
   *
-  * @Author:    -主任：卓大
-  * @Date:      2022-09-06 20:40:16
-  * @Wechat:    zhuda1024
-  * @Email:     lab1024@163.com
-  * @Copyright   （ https://1024lab.net ），Since 2012
 -->
 <template>
   <a-layout class="admin-layout" style="min-height: 100%">

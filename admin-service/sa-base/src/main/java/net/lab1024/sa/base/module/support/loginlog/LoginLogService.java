@@ -1,6 +1,11 @@
 package net.lab1024.sa.base.module.support.loginlog;
 
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import net.lab1024.sa.base.common.domain.PageResult;
@@ -10,18 +15,9 @@ import net.lab1024.sa.base.common.util.SmartPageUtil;
 import net.lab1024.sa.base.module.support.loginlog.domain.LoginLogEntity;
 import net.lab1024.sa.base.module.support.loginlog.domain.LoginLogQueryForm;
 import net.lab1024.sa.base.module.support.loginlog.domain.LoginLogVO;
-import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 /**
  * 登录日志
- *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2022/07/22 19:46:23
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Service
 @Slf4j

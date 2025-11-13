@@ -1,11 +1,6 @@
 ﻿<!--
   * 通知  详情
   * 
-  * @Author:    -主任：卓大 
-  * @Date:      2022-08-21 19:52:43 
-  * @Wechat:    zhuda1024 
-  * @Email:     lab1024@163.com 
-  * @Copyright   （ https://1024lab.net ），Since 2012 
 -->
 <template>
   <a-card style="margin-bottom: 15px" size="small">

@@ -1,23 +1,20 @@
 package net.lab1024.sa.base.module.support.helpdoc.domain.form;
 
+import java.util.List;
+
+import org.hibernate.validator.constraints.Length;
+
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 import net.lab1024.sa.base.common.json.deserializer.FileKeyVoDeserializer;
-import org.hibernate.validator.constraints.Length;
-
-import java.util.List;
 
 /**
  * 帮助文档
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2022-08-20 23:11:42
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Data
 public class HelpDocAddForm {

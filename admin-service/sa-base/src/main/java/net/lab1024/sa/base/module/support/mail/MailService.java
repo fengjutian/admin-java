@@ -1,6 +1,22 @@
 package net.lab1024.sa.base.module.support.mail;
 
 
+import java.io.File;
+import java.io.StringWriter;
+import java.io.Writer;
+import java.util.List;
+import java.util.Map;
+
+import org.apache.commons.collections4.CollectionUtils;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.text.StringSubstitutor;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.MimeMessageHelper;
+import org.springframework.stereotype.Component;
+
 import cn.hutool.core.util.IdUtil;
 import freemarker.cache.StringTemplateLoader;
 import freemarker.template.Configuration;
@@ -14,33 +30,12 @@ import net.lab1024.sa.base.common.domain.SystemEnvironment;
 import net.lab1024.sa.base.module.support.mail.constant.MailTemplateCodeEnum;
 import net.lab1024.sa.base.module.support.mail.constant.MailTemplateTypeEnum;
 import net.lab1024.sa.base.module.support.mail.domain.MailTemplateEntity;
-import org.apache.commons.collections4.CollectionUtils;
-import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.text.StringSubstitutor;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.mail.javamail.JavaMailSender;
-import org.springframework.mail.javamail.MimeMessageHelper;
-import org.springframework.stereotype.Component;
-
-import java.io.File;
-import java.io.StringWriter;
-import java.io.Writer;
-import java.util.List;
-import java.util.Map;
 
 /**
  *
  * 发送邮件：<br/>
  * 1、支持直接发送 <br/>
  * 2、支持使用邮件模板发送
- *
- * @Author 1024创新实验室-创始人兼主任:卓大
- * @Date 2024/8/5
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a> ，Since 2012
  */
 @Slf4j
 @Component

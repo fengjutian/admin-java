@@ -1,11 +1,5 @@
 ﻿<!--
   * 部门 树形选择框
-
-  * @Author:    -主任：卓大
-  * @Date:      2022-09-12 23:05:43
-  * @Wechat:    zhuda1024
-  * @Email:     lab1024@163.com
-  * @Copyright   （ https://1024lab.net ），Since 2012
   *
 -->
 <template>

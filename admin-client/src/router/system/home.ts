@@ -1,11 +1,6 @@
 ﻿/*
  * 首页路由
  *
- * @Author:    -主任：卓大
- * @Date:      2022-09-06 20:51:41
- * @Wechat:    zhuda1024
- * @Email:     lab1024@163.com
- * @Copyright   （ https://1024lab.net ），Since 2012
  */
 import { HOME_PAGE_NAME } from '/@/constants/system/home-const';
 import { MENU_TYPE_ENUM } from '/@/constants/system/menu-const';
