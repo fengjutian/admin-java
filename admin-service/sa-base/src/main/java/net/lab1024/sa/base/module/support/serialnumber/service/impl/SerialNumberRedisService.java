@@ -27,11 +27,6 @@ import java.util.List;
 /**
  * 单据序列号 基于redis key-value  increase 实现
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2025-08-03 22:46:07
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Slf4j
 public class SerialNumberRedisService extends SerialNumberBaseService {

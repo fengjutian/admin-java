@@ -12,11 +12,6 @@ import java.time.LocalDateTime;
 /**
  * 部门实体类
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2022-01-12 20:37:48
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Data
 @TableName(value = "t_department")

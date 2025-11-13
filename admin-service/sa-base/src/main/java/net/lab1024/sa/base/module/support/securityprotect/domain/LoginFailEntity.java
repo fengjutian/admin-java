@@ -11,11 +11,6 @@ import java.time.LocalDateTime;
 /**
  * 登录失败记录
  *
- * @Author 1024创新实验室-主任:卓大
- * @Date 2023/10/11 19:29:18
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>，Since 2012
  */
 
 @Data

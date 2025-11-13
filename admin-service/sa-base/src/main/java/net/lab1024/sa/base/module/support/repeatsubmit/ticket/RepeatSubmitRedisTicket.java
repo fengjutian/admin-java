@@ -9,11 +9,6 @@ import java.util.function.Function;
 /**
  * 凭证（redis实现）
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2025-07-26 23:56:58
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 public class RepeatSubmitRedisTicket extends AbstractRepeatSubmitTicket {
 

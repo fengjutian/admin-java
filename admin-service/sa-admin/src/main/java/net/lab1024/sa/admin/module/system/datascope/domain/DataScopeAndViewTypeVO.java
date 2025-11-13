@@ -8,11 +8,6 @@ import java.util.List;
 /**
  * 数据范围
  *
- * @Author 1024创新实验室: 罗伊
- * @Date 2020/11/28  20:59:17
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Data
 public class DataScopeAndViewTypeVO {

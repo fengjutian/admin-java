@@ -21,11 +21,6 @@ import java.util.List;
 /**
  * 员工
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2021-12-09 22:57:49
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 @RestController
 @Tag(name = AdminSwaggerTagConst.System.SYSTEM_EMPLOYEE)

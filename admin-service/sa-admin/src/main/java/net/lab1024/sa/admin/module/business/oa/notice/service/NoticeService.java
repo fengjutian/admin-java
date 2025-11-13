@@ -41,11 +41,6 @@ import java.util.stream.Collectors;
 /**
  * 通知。公告 后台管理业务
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2022-08-12 21:40:39
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Service
 public class NoticeService {

@@ -24,11 +24,6 @@ import java.util.Properties;
 /**
  * mybaits sql 拦截
  *
- * @Author 1024创新实验室: 罗伊
- * @Date 2022-03-18 20:59:17
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Intercepts({@Signature(type = org.apache.ibatis.executor.Executor.class, method = "query", args = {MappedStatement.class, Object.class, RowBounds.class, ResultHandler.class})})
 @Component

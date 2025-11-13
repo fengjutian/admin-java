@@ -7,11 +7,6 @@ import net.lab1024.sa.base.common.enumeration.BaseEnum;
 /**
  * 数据可见范围类型
  *
- * @Author 1024创新实验室: 罗伊
- * @Date 2020/11/28  20:59:17
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 public enum DataScopeViewTypeEnum implements BaseEnum {
 

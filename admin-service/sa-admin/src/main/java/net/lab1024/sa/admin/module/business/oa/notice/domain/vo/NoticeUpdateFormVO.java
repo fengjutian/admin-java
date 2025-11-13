@@ -10,11 +10,6 @@ import java.util.List;
 /**
  * 用于更新 【通知、公告】 的 VO 对象
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2022-08-12 21:40:39
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Data
 public class NoticeUpdateFormVO extends NoticeVO {
