@@ -14,10 +14,11 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @EnableScheduling
+@EnableCaching
 @EnableAspectJAutoProxy(proxyTargetClass = true, exposeProxy = true)
 @ComponentScan(AdminApplication.COMPONENT_SCAN)
 @MapperScan(value = AdminApplication.COMPONENT_SCAN, annotationClass = Mapper.class)
-@SpringBootApplication(exclude = {UserDetailsServiceAutoConfiguration.class, org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration.class, org.springframework.boot.autoconfigure.data.redis.RedisRepositoriesAutoConfiguration.class, org.redisson.spring.starter.RedissonAutoConfiguration.class})
+@SpringBootApplication(exclude = {UserDetailsServiceAutoConfiguration.class})
 public class AdminApplication {
 
     public static final String COMPONENT_SCAN = "net.lab1024.sa";
