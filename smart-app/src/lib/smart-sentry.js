@@ -1,12 +1,4 @@
-﻿/*
- * 错误上报sentry
- *
- * @Author:    -主任：卓大
- * @Date:      2024-01-02 20:49:28
- * @Wechat:    zhuda1024
- * @Email:     lab1024@163.com
- * @Copyright   （ https://1024lab.net ），Since 2012
- */
+﻿
 
 export const smartSentry = {
     /**

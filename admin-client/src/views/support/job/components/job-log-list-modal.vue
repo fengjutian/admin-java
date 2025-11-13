@@ -1,8 +1,4 @@
-<!--
-  * job log列表
-  * @Author:    huke
-  * @Date:      2024/06/25
--->
+
 <template>
   <a-drawer v-model:open="showFlag" :width="1000" :title="title" placement="right" :destroyOnClose="true">
     <a-form class="smart-query-form">

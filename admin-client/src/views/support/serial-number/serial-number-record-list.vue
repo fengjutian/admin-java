@@ -1,12 +1,4 @@
-﻿<!--
-  * 单号 记录
-  * 
-  * @Author:    -主任：卓大 
-  * @Date:      2022-07-21 21:55:12
-  * @Wechat:    zhuda1024 
-  * @Email:     lab1024@163.com 
-  * @Copyright   （ https://1024lab.net ），Since 2012 
--->
+﻿
 <template>
   <a-modal :open="visible" title="每日生成结果记录" width="60%" :footer="null" @cancel="onClose">
     <a-table size="small" :dataSource="tableData" :columns="columns" bordered :pagination="false">

@@ -7,9 +7,6 @@ $importClass
 /**
  * ${basic.description} 实体类
  *
- * @Author ${basic.backendAuthor}
- * @Date ${basic.backendDate}
- * @Copyright ${basic.copyright}
  */
 
 @Data

@@ -1,8 +1,4 @@
-<!--
-  * JOB 列表
-  * @Author:    huke
-  * @Date:      2024/06/25
--->
+
 <template>
   <div>
     <a-card size="small" :bordered="false" :hoverable="true">

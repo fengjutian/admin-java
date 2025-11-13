@@ -1,8 +1,4 @@
-<!--
-  * JOB 表单
-  * @Author:    huke
-  * @Date:      2024/06/29
--->
+
 <template>
   <div>
     <!-- 编辑 -->

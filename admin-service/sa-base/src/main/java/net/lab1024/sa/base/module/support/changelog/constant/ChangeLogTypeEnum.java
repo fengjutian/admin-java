@@ -7,9 +7,6 @@ import net.lab1024.sa.base.common.enumeration.BaseEnum;
 /**
  * 更新类型:[1:特大版本功能更新;2:功能更新;3:bug修复]
  *
- * @Author 卓大
- * @Date 2022-09-26T14:53:50
- * @Copyright 1024创新实验室
  */
 
 @AllArgsConstructor

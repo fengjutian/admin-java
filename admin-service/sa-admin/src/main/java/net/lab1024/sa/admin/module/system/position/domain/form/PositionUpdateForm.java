@@ -7,9 +7,6 @@ import lombok.Data;
 /**
  * 职务表 更新表单
  *
- * @Author kaiyun
- * @Date 2024-06-23 23:31:38
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 
 @Data

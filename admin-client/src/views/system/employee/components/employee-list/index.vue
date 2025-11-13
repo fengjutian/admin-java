@@ -1,11 +1,6 @@
 ﻿<!--
   *  员工 列表
   *
-  * @Author:    -主任：卓大
-  * @Date:      2022-08-08 20:46:18
-  * @Wechat:    zhuda1024
-  * @Email:     lab1024@163.com
-  * @Copyright   （ https://1024lab.net ），Since 2012
 -->
 <template>
   <a-card class="employee-container">

@@ -17,9 +17,6 @@ import org.springframework.web.bind.annotation.*;
 /**
  * 系统更新日志 Controller
  *
- * @Author 卓大
- * @Date 2022-09-26 14:53:50
- * @Copyright 1024创新实验室
  */
 
 @RestController

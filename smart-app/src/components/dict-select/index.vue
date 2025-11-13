@@ -1,11 +1,6 @@
 ﻿<!---
   * 字段 下拉选择框
   * 
-  * @Author:    ：罗伊
-  * @Date:      2022-09-12 22:06:45 
-  * @Wechat:    zhuda1024 
-  * @Email:     lab1024@163.com 
-  * @Copyright   （ https://1024lab.net ），Since 2012 
   *
 -->
 <template>

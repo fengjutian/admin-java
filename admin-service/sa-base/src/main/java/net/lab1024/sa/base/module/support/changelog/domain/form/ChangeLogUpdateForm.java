@@ -13,9 +13,6 @@ import java.time.LocalDate;
 /**
  * 系统更新日志 更新表单
  *
- * @Author 卓大
- * @Date 2022-09-26 14:53:50
- * @Copyright 1024创新实验室
  */
 
 @Data

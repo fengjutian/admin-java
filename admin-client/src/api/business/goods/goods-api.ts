@@ -1,10 +1,4 @@
-/*
- * @Description:
- * @Author: zhuoda
- * @Date: 2021-11-05
- * @LastEditTime: 2022-06-23
- * @LastEditors: zhuoda
- */
+
 import {postRequest, getRequest, getDownload} from '/@/lib/axios';
 
 export const goodsApi = {

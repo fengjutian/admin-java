@@ -1,10 +1,4 @@
-/*
- * @Description:
- * @Author: zhuoda
- * @Date: 2021-08-03
- * @LastEditTime: 2021-08-26
- * @LastEditors: zhuoda
- */
+
 /**
  * 不同环境下的配置信息
  */

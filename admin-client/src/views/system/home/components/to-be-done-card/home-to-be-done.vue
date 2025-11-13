@@ -1,10 +1,5 @@
 ﻿<!--
   * 待办工作
-  * 
-  * @Author:    -主任：卓大 
-  * @Date:      2022-09-12 22:34:00
-  * @Copyright   （ https://1024lab.net ），Since 2012 
-  *
 -->
 <template>
   <default-home-card extra="添加" icon="StarTwoTone" title="待办工作" @extraClick="showAddToBeDone">

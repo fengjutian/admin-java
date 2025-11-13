@@ -22,10 +22,6 @@ public class SmartEnumUtil {
     /**
      * 校验参数与枚举类比较是否合法
      *
-     * @param value     参数
-     * @param enumClass 枚举类必须实现BaseEnum接口
-     * @return boolean
-     * @Author 胡克
      */
     public static boolean checkEnum(Object value, Class<? extends BaseEnum> enumClass) {
         if (null == value) {
@@ -98,10 +94,6 @@ public class SmartEnumUtil {
     /**
      * 根据参数获取枚举类的实例
      *
-     * @param value     参数
-     * @param enumClass 枚举类必须实现BaseEnum接口
-     * @return BaseEnum 无匹配值返回null
-     * @Author 胡克
      */
     public static <T extends BaseEnum> T getEnumByValue(Object value, Class<T> enumClass) {
         if (null == value) {
@@ -116,10 +108,6 @@ public class SmartEnumUtil {
     /**
      * 根据实例描述与获取枚举类的实例
      *
-     * @param desc      参数描述
-     * @param enumClass 枚举类必须实现BaseEnum接口
-     * @return BaseEnum 无匹配值返回null
-     * @Author 胡克
      */
     public static <T extends BaseEnum> T getEnumByDesc(String desc, Class<T> enumClass) {
         return Stream.of(enumClass.getEnumConstants())

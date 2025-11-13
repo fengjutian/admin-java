@@ -1,8 +1,4 @@
-<!--
-  * 已删除的 JOB 列表
-  * @Author:    zhuoda
-  * @Date:      2025/01/05
--->
+
 <template>
   <div>
     <a-form class="smart-query-form">

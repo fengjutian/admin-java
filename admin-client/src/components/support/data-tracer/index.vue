@@ -1,11 +1,6 @@
 ﻿<!--
   *  数据变动记录 表格 组件
   *
-  * @Author:    -主任：卓大
-  * @Date:      2022-08-12 21:01:52
-  * @Wechat:    zhuda1024
-  * @Email:     lab1024@163.com
-  * @Copyright   （ https://1024lab.net ），Since 2012
   *
 -->
 <template>

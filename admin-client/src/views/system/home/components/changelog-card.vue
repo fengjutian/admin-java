@@ -1,11 +1,6 @@
 ﻿<!--
   * 更新日志
   * 
-  * @Author:    -主任：卓大 
-  * @Date:      2022-09-12 22:34:00 
-  * @Wechat:    zhuda1024 
-  * @Email:     lab1024@163.com 
-  * @Copyright   （ https://1024lab.net ），Since 2012 
   *
 -->
 <template>

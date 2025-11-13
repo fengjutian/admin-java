@@ -12,9 +12,6 @@ import net.lab1024.sa.base.module.support.changelog.constant.ChangeLogTypeEnum;
 /**
  * 系统更新日志 列表VO
  *
- * @Author 卓大
- * @Date 2022-09-26 14:53:50
- * @Copyright 1024创新实验室
  */
 
 @Data

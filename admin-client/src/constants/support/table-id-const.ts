@@ -1,10 +1,4 @@
-/*
- * @Description: 表格id
- * @Author: zhuoda
- * @Date: 2022-08-21
- * @LastEditTime: 2022-08-21
- * @LastEditors: zhuoda
- */
+
 
 //system系统功能表格初始化id
 let systemInitTableId = 10000;

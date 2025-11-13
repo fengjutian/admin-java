@@ -1,9 +1,4 @@
-/*
- * job api
- *
- * @Author:    huke
- * @Date:      2024/06/25
- */
+
 import { postRequest, getRequest } from '/@/lib/axios';
 
 export const jobApi = {

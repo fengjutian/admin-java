@@ -1,12 +1,4 @@
-﻿<!--
-  * 组织架构
-  *
-  * @Author:    -主任：卓大
-  * @Date:      2022-08-08 20:46:18
-  * @Wechat:    zhuda1024
-  * @Email:     lab1024@163.com
-  * @Copyright   （ https://1024lab.net ），Since 2012
--->
+﻿
 <template>
   <div class="height100">
     <a-row :gutter="16" class="height100">

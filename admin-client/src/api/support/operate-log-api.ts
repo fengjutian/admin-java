@@ -1,12 +1,4 @@
-﻿/*
- * 操作日志
- *
- * @Author:    -主任：卓大
- * @Date:      2022-09-03 21:56:45
- * @Wechat:    zhuda1024
- * @Email:     lab1024@163.com
- * @Copyright   （ https://1024lab.net ），Since 2012
- */
+﻿
 import { postRequest, getRequest } from '/@/lib/axios';
 
 export const operateLogApi = {
