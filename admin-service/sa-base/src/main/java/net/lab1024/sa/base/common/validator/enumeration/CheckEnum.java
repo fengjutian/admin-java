@@ -13,11 +13,6 @@ import java.lang.annotation.Target;
 /**
  * 自定义的属性校验注解，为了方便与校验属性的值是否为合法的枚举值
  *
- * @Author 1024创新实验室: 胡克
- * @Date 2017/11/11 15:31
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)

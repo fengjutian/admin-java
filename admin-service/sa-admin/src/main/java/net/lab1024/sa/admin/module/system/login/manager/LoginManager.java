@@ -34,11 +34,6 @@ import java.util.stream.Collectors;
 /**
  * 登录Manager
  *
- * @Author 1024创新实验室: 卓大
- * @Date 2025-05-03 22:56:34
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Slf4j
 @Service

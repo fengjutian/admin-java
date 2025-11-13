@@ -17,11 +17,6 @@ import org.springframework.stereotype.Component;
 /**
  * 启动监听器
  *
- * @Author 1024创新实验室: 罗伊
- * @Date 2021-12-23 23:45:26
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Slf4j
 @Component

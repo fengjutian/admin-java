@@ -19,11 +19,6 @@ import java.util.List;
 /**
  * reload (内存热加载、钩子等)
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2015-03-02 19:11:52
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @RestController
 @Tag(name = SwaggerTagConst.Support.RELOAD)

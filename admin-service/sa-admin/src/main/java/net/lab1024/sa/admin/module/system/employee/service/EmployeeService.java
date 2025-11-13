@@ -38,11 +38,6 @@ import java.util.stream.Collectors;
 /**
  * 员工 service
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2021-12-29 21:52:46
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Service
 public class EmployeeService {

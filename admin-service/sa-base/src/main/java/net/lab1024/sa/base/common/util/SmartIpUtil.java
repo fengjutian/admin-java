@@ -15,11 +15,6 @@ import java.util.List;
 /**
  * IP工具类
  *
- * @Author 1024创新实验室-主任:卓大
- * @Date 2023/9/14 15:35:11
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>，Since 2012
  */
 @Slf4j
 public class SmartIpUtil {

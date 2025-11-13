@@ -16,11 +16,6 @@ import java.util.List;
 /**
  * 权限、接口加解密等
  *
- * @Author 1024创新实验室-主任:卓大
- * @Date 2023/12/26 13:47:39
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 
 public class SmartOperationCustomizer implements OperationCustomizer {

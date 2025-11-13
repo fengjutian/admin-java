@@ -24,11 +24,6 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 网络安全
  *
- * @Author 1024创新实验室-主任:卓大
- * @Date 2023/10/17 19:07:27
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>，Since 2012
  */
 
 @RestController

@@ -12,11 +12,6 @@ import java.io.Serializable;
 /**
  * 请求员工登录信息
  *
- * @Author 1024创新实验室: 善逸
- * @Date 2021/8/4 21:15
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Data
 public class RequestEmployee implements RequestUser, Serializable {

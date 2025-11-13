@@ -21,11 +21,6 @@ import java.util.List;
 /**
  * 数据字典 Controller
  *
- * @Author 1024创新实验室-主任-卓大
- * @Date 2025-03-25 22:25:04
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Tag(name = SwaggerTagConst.Support.DICT)
 @RestController

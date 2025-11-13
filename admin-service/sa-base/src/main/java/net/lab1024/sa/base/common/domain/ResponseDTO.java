@@ -12,11 +12,6 @@ import org.apache.commons.lang3.StringUtils;
 /**
  * 请求返回对象
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2021-10-31 21:06:11
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Data
 @Schema

@@ -13,11 +13,6 @@ import java.util.List;
 /**
  * 系统参数配置 t_config Dao层
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2022-03-14 20:46:27
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Mapper
 public interface ConfigDao extends BaseMapper<ConfigEntity> {

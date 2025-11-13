@@ -3,11 +3,6 @@ package net.lab1024.sa.base.common.constant;
 /**
  * 字符串常量
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2021-10-14 23:16:47
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 public class StringConst {
 

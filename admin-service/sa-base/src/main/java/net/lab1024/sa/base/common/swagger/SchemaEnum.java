@@ -10,11 +10,6 @@ import java.lang.annotation.Target;
 /**
  * 枚举类字段属性的 自定义 swagger 注解
  *
- * @Author 1024创新实验室: 胡克
- * @Date 2019/05/16 23:18
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Target({ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)

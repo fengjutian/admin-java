@@ -6,11 +6,6 @@ import java.math.RoundingMode;
 /**
  * BigDecimal 工具类
  *
- * @Author 1024创新实验室: 胡克
- * @Date 2018/01/17 13:54
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 public class SmartBigDecimalUtil {
 

@@ -16,11 +16,6 @@ import java.util.stream.Stream;
 /**
  * 枚举工具类
  *
- * @Author 1024创新实验室: 胡克
- * @Date 2017/10/10 18:17
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 public class SmartEnumUtil {
 

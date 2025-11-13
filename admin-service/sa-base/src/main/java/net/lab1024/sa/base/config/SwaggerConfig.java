@@ -37,11 +37,6 @@ import java.util.Optional;
  *  location /v3/api-docs/ {
  *          proxy_pass  http://127.0.0.1:1024/v3/api-docs/;
  * }
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2020-03-25 22:54:46
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Slf4j
 @Configuration

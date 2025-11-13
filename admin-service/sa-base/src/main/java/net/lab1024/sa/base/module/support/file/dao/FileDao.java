@@ -15,11 +15,6 @@ import java.util.List;
 /**
  * 文件服务
  *
- * @Author 1024创新实验室: 罗伊
- * @Date 2019年10月11日 15:34:47
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Mapper
 public interface FileDao extends BaseMapper<FileEntity> {

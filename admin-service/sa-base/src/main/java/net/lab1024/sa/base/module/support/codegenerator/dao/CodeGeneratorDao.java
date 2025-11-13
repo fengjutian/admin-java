@@ -10,13 +10,6 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-/**
- * @Author 1024创新实验室: 罗伊
- * @Date 2022-06-30 22:15:38
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
- */
 @Mapper
 public interface CodeGeneratorDao {
 

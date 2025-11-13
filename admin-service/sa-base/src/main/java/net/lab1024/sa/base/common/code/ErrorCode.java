@@ -4,11 +4,6 @@ package net.lab1024.sa.base.common.code;
  * 错误码<br>
  * 一共分为三种： 1）系统错误、2）用户级别错误、3）未预期到的错误
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2021-09-02 20:21:10
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 public interface ErrorCode {
 

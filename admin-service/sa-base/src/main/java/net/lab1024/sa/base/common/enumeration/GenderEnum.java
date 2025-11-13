@@ -6,11 +6,6 @@ import lombok.Getter;
 /**
  * 性别枚举类
  *
- * @Author 1024创新实验室: 胡克
- * @Date 2019/09/24 16:50
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @AllArgsConstructor
 @Getter

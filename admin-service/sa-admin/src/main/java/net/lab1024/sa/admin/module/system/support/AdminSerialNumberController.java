@@ -28,11 +28,6 @@ import java.util.List;
 /**
  * 单据序列号
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2022-03-25 21:46:07
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Tag(name = SwaggerTagConst.Support.SERIAL_NUMBER)
 @RestController

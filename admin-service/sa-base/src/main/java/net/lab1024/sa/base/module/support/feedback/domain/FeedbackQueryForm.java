@@ -10,11 +10,6 @@ import java.time.LocalDate;
 /**
  * 意见反馈 查询
  *
- * @Author 1024创新实验室: 开云
- * @Date 2022-08-11 20:48:09
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Data
 public class FeedbackQueryForm extends PageParam {

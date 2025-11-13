@@ -23,11 +23,6 @@ import java.util.concurrent.TimeUnit;
 /**
  * http请求配置
  *
- * @Author 1024创新实验室: 卓大
- * @Date 2025-07-26 21:22:12
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Configuration
 public class RestClientConfig {

@@ -12,11 +12,6 @@ import java.util.stream.Stream;
 /**
  * 枚举类校验器
  *
- * @Author 1024创新实验室: 胡克
- * @Date 2017/11/11 15:34
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 public class EnumValidator implements ConstraintValidator<CheckEnum, Object> {
 

@@ -14,11 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 配置
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2022-03-14 20:46:27
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Tag(name = SwaggerTagConst.Support.CONFIG)
 @RestController

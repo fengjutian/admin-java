@@ -13,11 +13,6 @@ import java.util.stream.Collectors;
 /**
  * bean相关工具类
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2018-01-15 10:48:23
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 public class SmartBeanUtil {
 

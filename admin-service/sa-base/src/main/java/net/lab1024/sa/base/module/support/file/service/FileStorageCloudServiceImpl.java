@@ -44,11 +44,6 @@ import java.util.Map;
 /**
  * 云计算 实现
  *
- * @Author 1024创新实验室: 罗伊
- * @Date 2019年10月11日 15:34:47
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Slf4j
 public class FileStorageCloudServiceImpl implements IFileStorageService {

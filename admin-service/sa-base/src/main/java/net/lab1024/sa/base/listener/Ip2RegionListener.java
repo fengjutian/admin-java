@@ -16,11 +16,6 @@ import java.io.IOException;
 /**
  * 初初始化ip工具类
  *
- * @Author 1024创新实验室: zhuoda
- * @Date 2023-09-03 23:45:26
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Order(value = LoggingApplicationListener.DEFAULT_ORDER)
 @Slf4j

@@ -4,12 +4,6 @@ import java.util.regex.Pattern;
 
 /**
  * 验证工具类
- *
- * @Author 1024创新实验室: 胡克
- * @Date 2017/11/06 10:54
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 public class SmartVerificationUtil {
 

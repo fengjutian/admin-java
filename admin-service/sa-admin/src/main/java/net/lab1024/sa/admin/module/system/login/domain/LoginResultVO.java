@@ -11,11 +11,6 @@ import java.util.List;
 /**
  * 登录结果信息
  *
- * @Author 1024创新实验室: 开云
- * @Date 2021-12-19 11:49:45
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Data
 public class LoginResultVO extends RequestEmployee {

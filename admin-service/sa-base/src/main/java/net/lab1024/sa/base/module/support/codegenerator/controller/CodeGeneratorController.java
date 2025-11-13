@@ -26,11 +26,6 @@ import java.util.List;
 /**
  * 代码生成
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2022-06-29 20:23:46
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Tag(name = SwaggerTagConst.Support.CODE_GENERATOR)
 @Controller

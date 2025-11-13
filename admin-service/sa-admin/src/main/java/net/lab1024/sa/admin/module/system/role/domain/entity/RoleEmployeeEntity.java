@@ -10,11 +10,6 @@ import java.time.LocalDateTime;
 /**
  * 角色 员工关系
  *
- * @Author 1024创新实验室: 罗伊
- * @Date 2022-03-07 18:54:42
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Data
 @TableName("t_role_employee")

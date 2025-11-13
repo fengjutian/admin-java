@@ -14,11 +14,6 @@ import java.util.List;
 /**
  * 分页基础参数
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2020/04/28 16:19
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Data
 public class PageParam {

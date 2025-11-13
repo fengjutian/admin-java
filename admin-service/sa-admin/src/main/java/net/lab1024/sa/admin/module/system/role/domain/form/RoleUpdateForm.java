@@ -7,11 +7,6 @@ import lombok.Data;
 /**
  * 角色更新修改
  *
- * @Author 1024创新实验室: 胡克
- * @Date 2022-02-26 19:09:42
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Data
 public class RoleUpdateForm extends RoleAddForm {

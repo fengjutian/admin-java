@@ -11,11 +11,6 @@ import org.springframework.stereotype.Service;
 /**
  * 心跳记录
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2022-01-09 20:57:24
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Slf4j
 @Service

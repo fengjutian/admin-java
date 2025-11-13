@@ -20,11 +20,6 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 登录日志
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2022/07/22 19:46:23
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @RestController
 @Tag(name = SwaggerTagConst.Support.LOGIN_LOG)

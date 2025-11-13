@@ -12,11 +12,6 @@ import java.util.Objects;
 /**
  * 枚举类接口
  *
- * @Author 1024创新实验室: 胡克
- * @Date 2018-07-17 21:22:12
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 public interface BaseEnum {
 

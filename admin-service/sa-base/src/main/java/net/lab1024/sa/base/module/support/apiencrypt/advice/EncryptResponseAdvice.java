@@ -20,11 +20,6 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 /**
  * 加密
  *
- * @Author 1024创新实验室-主任:卓大
- * @Date 2023/10/24 09:52:58
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>，Since 2012
  */
 
 

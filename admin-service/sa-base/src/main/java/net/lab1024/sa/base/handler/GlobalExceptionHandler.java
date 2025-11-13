@@ -27,11 +27,6 @@ import java.util.stream.Collectors;
 /**
  * 全局异常拦截
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2020/8/25 21:57
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Slf4j
 @ControllerAdvice

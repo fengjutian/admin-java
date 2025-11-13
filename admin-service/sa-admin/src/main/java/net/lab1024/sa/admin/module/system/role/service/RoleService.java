@@ -19,11 +19,6 @@ import java.util.List;
 /**
  * 角色
  *
- * @Author 1024创新实验室: 胡克
- * @Date 2021-08-16 20:19:22
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Service
 public class RoleService {

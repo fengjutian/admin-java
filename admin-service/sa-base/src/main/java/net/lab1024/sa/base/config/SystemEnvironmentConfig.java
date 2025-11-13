@@ -14,11 +14,6 @@ import org.springframework.core.type.AnnotatedTypeMetadata;
 /**
  * 系统环境
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2021/08/13 18:56
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Configuration
 public class SystemEnvironmentConfig implements Condition {

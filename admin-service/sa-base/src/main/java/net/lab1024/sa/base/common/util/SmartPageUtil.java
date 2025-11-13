@@ -16,11 +16,6 @@ import java.util.List;
 /**
  * 分页工具类
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2020-04-23 20:51:40
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Slf4j
 public class SmartPageUtil {

@@ -10,9 +10,6 @@ import java.time.LocalDateTime;
 /**
  * 数据字典 实体类
  *
- * @Author 1024创新实验室-主任-卓大
- * @Date 2025-03-25 22:25:04
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 
 @Data

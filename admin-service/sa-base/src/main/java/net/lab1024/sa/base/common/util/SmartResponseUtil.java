@@ -17,11 +17,6 @@ import static cn.hutool.core.util.CharsetUtil.UTF_8;
 /**
  * 返回工具栏
  *
- * @Author 1024创新实验室-主任:卓大
- * @Date 2023/11/25 18:51:32
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>，Since 2012
  */
 
 @Slf4j

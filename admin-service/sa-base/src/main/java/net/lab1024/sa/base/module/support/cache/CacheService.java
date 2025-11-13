@@ -7,11 +7,6 @@ import java.util.List;
 /**
  * 缓存服务
  *
- * @Author 1024创新实验室: 罗伊
- * @Date 2021/10/11 20:07
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Service
 public interface CacheService {

@@ -5,11 +5,6 @@ import net.lab1024.sa.base.common.enumeration.BaseEnum;
 /**
  * 查询条件类型
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2022-06-29 20:23:46
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 public enum CodeQueryFieldQueryTypeEnum implements BaseEnum {
 
