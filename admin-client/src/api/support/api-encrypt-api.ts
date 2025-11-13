@@ -1,9 +1,5 @@
 /**
  * 接口：加密、解密
- *
- * @Author:    1024创新实验室-主任-卓大
- * @Date:      2023-10-17 20:02:37
- * @Copyright  1024创新实验室
  */
 import { postRequest, postEncryptRequest } from '/@/lib/axios';
 
