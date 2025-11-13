@@ -11,11 +11,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 /**
  * web相关配置
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2021-09-02 20:21:10
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Configuration
 public class MvcConfig implements WebMvcConfigurer {
