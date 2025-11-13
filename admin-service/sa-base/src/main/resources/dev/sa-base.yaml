@@ -73,7 +73,7 @@ spring:
 
   # 缓存实现类型
   cache:
-    type: simple
+    type: caffeine
 
 # 健康检查
 management:
