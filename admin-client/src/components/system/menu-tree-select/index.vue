@@ -1,11 +1,5 @@
 ﻿<!--
   * 菜单 树形 下拉选择框
-  *
-  * @Author:    -主任：卓大
-  * @Date:      2022-09-01 23:14:49
-  * @Wechat:    zhuda1024
-  * @Email:     lab1024@163.com
-  * @Copyright   （ https://1024lab.net ），Since 2012
 -->
 <template>
   <a-tree-select

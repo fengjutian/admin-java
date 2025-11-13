@@ -1,11 +1,6 @@
 ﻿/*
  * 企业信息
  *
- * @Author:    开云
- * @Date:      2023-09-03 21:47:28
- * @Wechat:    zhuda1024
- * @Email:     lab1024@163.com
- * @Copyright   （ https://1024lab.net ），Since 2012
  */
 import { postRequest, getRequest } from '@/lib/smart-request';
 

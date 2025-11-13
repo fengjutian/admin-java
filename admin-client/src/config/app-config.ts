@@ -1,11 +1,6 @@
 ﻿/*
  * 应用默认配置
- *
- * @Author:    -主任：卓大
- * @Date:      2022-09-03 22:07:01
- * @Wechat:    zhuda1024
- * @Email:     lab1024@163.com
- * @Copyright   （ https://1024lab.net ），Since 2012
+ 
  */
 export const appDefaultConfig = {
   // i18n 语言选择

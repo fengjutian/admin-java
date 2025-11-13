@@ -1,21 +1,17 @@
 package net.lab1024.sa.base.module.support.mail.domain;
 
+import java.time.LocalDateTime;
+
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
-import lombok.Data;
 
-import java.time.LocalDateTime;
+import lombok.Data;
 
 /**
  *
  * 邮件模板
  *
- * @Author 1024创新实验室-创始人兼主任:卓大
- * @Date 2024/8/5
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a> ，Since 2012
  */
 @Data
 @TableName("t_mail_template")

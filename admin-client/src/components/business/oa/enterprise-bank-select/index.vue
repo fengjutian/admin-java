@@ -1,11 +1,5 @@
 ﻿<!--
   * 公司银行 下拉选择框
-  * 
-  * @Author:    ：开云
-  * @Date:      2022-09-02 22:12:20 
-  * @Wechat:    zhuda1024 
-  * @Email:     lab1024@163.com 
-  * @Copyright   （ https://1024lab.net ），Since 2012 
   *
 -->
 <template>

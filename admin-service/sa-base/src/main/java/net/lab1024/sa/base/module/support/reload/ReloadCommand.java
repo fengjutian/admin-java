@@ -1,5 +1,9 @@
 package net.lab1024.sa.base.module.support.reload;
 
+import java.util.List;
+
+import org.springframework.stereotype.Component;
+
 import jakarta.annotation.Resource;
 import net.lab1024.sa.base.common.util.SmartBeanUtil;
 import net.lab1024.sa.base.module.support.reload.core.AbstractSmartReloadCommand;
@@ -9,18 +13,10 @@ import net.lab1024.sa.base.module.support.reload.dao.ReloadItemDao;
 import net.lab1024.sa.base.module.support.reload.dao.ReloadResultDao;
 import net.lab1024.sa.base.module.support.reload.domain.ReloadItemEntity;
 import net.lab1024.sa.base.module.support.reload.domain.ReloadResultEntity;
-import org.springframework.stereotype.Component;
-
-import java.util.List;
 
 /**
  * reload 操作
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2015-03-02 19:11:52
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Component
 public class ReloadCommand extends AbstractSmartReloadCommand {

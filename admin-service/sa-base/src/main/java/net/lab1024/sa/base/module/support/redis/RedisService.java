@@ -1,16 +1,5 @@
 package net.lab1024.sa.base.module.support.redis;
 
-import com.alibaba.fastjson.JSON;
-import jakarta.annotation.Resource;
-import net.lab1024.sa.base.common.domain.SystemEnvironment;
-import net.lab1024.sa.base.common.enumeration.SystemEnvironmentEnum;
-import net.lab1024.sa.base.common.util.SmartStringUtil;
-import net.lab1024.sa.base.constant.RedisKeyConst;
-import org.slf4j.Logger;
-import org.springframework.data.redis.core.*;
-import org.springframework.stereotype.Service;
-import org.springframework.util.CollectionUtils;
-
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -19,14 +8,27 @@ import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import org.slf4j.Logger;
+import org.springframework.data.redis.core.HashOperations;
+import org.springframework.data.redis.core.ListOperations;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.SetOperations;
+import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.data.redis.core.ValueOperations;
+import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
+
+import com.alibaba.fastjson.JSON;
+
+import jakarta.annotation.Resource;
+import net.lab1024.sa.base.common.domain.SystemEnvironment;
+import net.lab1024.sa.base.common.enumeration.SystemEnvironmentEnum;
+import net.lab1024.sa.base.common.util.SmartStringUtil;
+import net.lab1024.sa.base.constant.RedisKeyConst;
+
 /**
  * redis 一顿操作
  *
- * @Author 1024创新实验室: 罗伊
- * @Date 2020/8/25 21:57
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Service
 public class RedisService {

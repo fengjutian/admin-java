@@ -1,21 +1,17 @@
 package net.lab1024.sa.base.module.support.operatelog.domain;
 
+import java.time.LocalDateTime;
+
 import com.fasterxml.jackson.annotation.JsonFormat;
+
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 import net.lab1024.sa.base.common.enumeration.UserTypeEnum;
 import net.lab1024.sa.base.common.swagger.SchemaEnum;
 
-import java.time.LocalDateTime;
-
 /**
  *  操作日志信息
  *
- * @Author 1024创新实验室: 罗伊
- * @Date 2021-12-08 20:48:52
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Data
 public class OperateLogVO {

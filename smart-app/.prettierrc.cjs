@@ -1,11 +1,6 @@
 ﻿/*
  * 代码格式化配置
  *
- * @Author:    -主任：卓大
- * @Date:      2022-09-12 14:44:18
- * @Wechat:    zhuda1024
- * @Email:     lab1024@163.com
- * @Copyright   （ https://1024lab.net ），Since 2012
  */
 module.exports = {
   printWidth: 150, // 每行代码长度（默认80）

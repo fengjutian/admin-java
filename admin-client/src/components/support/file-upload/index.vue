@@ -1,12 +1,6 @@
 ﻿<!--
   * 文件上传
   *
-  * @Author:    ：善逸
-  * @Date:      2022-08-12 20:19:39
-  * @Wechat:    zhuda1024
-  * @Email:     lab1024@163.com
-  * @Copyright   （ https://1024lab.net ），Since 2012
-  *
 -->
 <template>
   <div class="clearfix">

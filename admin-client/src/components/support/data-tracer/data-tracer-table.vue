@@ -1,11 +1,5 @@
 ﻿<!--
   * 数据变更记录，以table形式显示
-  * 
-  * @Author:    -主任：卓大 
-  * @Date:      2022-08-12 21:01:52 
-  * @Wechat:    zhuda1024 
-  * @Email:     lab1024@163.com 
-  * @Copyright   （ https://1024lab.net ），Since 2012 
 -->
 <template>
   <a-table size="small" :dataSource="tableData" :columns="columns" rowKey="dataTracerId" :pagination="false" bordered>

@@ -1,9 +1,6 @@
 ﻿/**
  * 系统更新日志 api 封装
  *
- * @Author:    卓大
- * @Date:      2022-09-26 14:53:50
- * @Copyright  
  */
 import { postRequest, getRequest } from '@/lib/smart-request';
 

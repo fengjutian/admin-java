@@ -1,11 +1,6 @@
 ﻿<!--
   * 职位
-  *
-  * @Author:    开云
-  * @Date:      2024-06-27 23:09:02
-  * @Wechat:    kaiyun
-  * @Email:     lab1024@163.com
-  * @Copyright   （ https://1024lab.net ），Since 2012
+
 -->
 <template>
   <a-select

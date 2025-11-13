@@ -1,9 +1,5 @@
 ﻿/**
  * 职务表 api 封装
- *
- * @Author:    kaiyun
- * @Date:      2024-06-23 23:31:38
- * @Copyright  <a href="https://1024lab.net"></a>
  */
 import { postRequest, getRequest } from '/@/lib/axios';
 
