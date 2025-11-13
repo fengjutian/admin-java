@@ -20,6 +20,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>17</java.version>
         <springboot.version>3.5.4</springboot.version>
+        <lombok.version>1.18.38</lombok.version>
         <spring-security-crypto.version>6.5.1</spring-security-crypto.version>
         <mybatis-plus.version>3.5.12</mybatis-plus.version>
         <p6spy.version>3.9.1</p6spy.version>
@@ -327,6 +328,13 @@
                 <artifactId>httpclient5</artifactId>
                 <version>${httpcomponents.version}</version>
             </dependency>
+            
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <scope>provided</scope>
+            </dependency>
 
         </dependencies>
 
@@ -373,6 +381,13 @@
                     <source>17</source>
                     <target>17</target>
                     <encoding>UTF-8</encoding>
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                            <version>${lombok.version}</version>
+                        </path>
+                    </annotationProcessorPaths>
                 </configuration>
             </plugin>
             <plugin>
