@@ -1,11 +1,6 @@
 ﻿<!--
   * 代码生成 预览代码
   *
-  * @Author:    -主任：卓大
-  * @Date:      2022-09-22 21:50:41
-  * @Wechat:    zhuda1024
-  * @Email:     lab1024@163.com
-  * @Copyright   （ https://1024lab.net ），Since 2012
 -->
 <template>
   <a-drawer

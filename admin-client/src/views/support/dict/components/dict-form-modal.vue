@@ -1,11 +1,6 @@
 ﻿<!--
   * 字典表单 弹窗
   *
-  * @Author:    -主任：卓大
-  * @Date:      2025-03-08 21:50:41
-  * @Wechat:    zhuda1024
-  * @Email:     lab1024@163.com
-  * @Copyright   （ https://1024lab.net ），Since 2012
 -->
 <template>
   <a-modal :open="visible" :title="form.dictId ? '编辑字典' : '添加字典'" ok-text="确认" cancel-text="取消" @ok="onSubmit" @cancel="onClose">

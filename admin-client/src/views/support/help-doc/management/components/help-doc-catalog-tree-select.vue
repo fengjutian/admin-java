@@ -1,11 +1,6 @@
 ﻿<!--
   * 目录下拉框
   * 
-  * @Author:    -主任：卓大
-  * @Date:      2022-07-21 21:55:12
-  * @Wechat:    zhuda1024 
-  * @Email:     lab1024@163.com 
-  * @Copyright   （ https://1024lab.net ），Since 2012 
 -->
 <template>
   <a-tree-select

@@ -1,11 +1,6 @@
 ﻿<!--
   * 数据 字典
   *
-  * @Author:    -主任：卓大
-  * @Date:      2025-03-26 21:50:41
-  * @Wechat:    zhuda1024
-  * @Email:     lab1024@163.com
-  * @Copyright   （ https://1024lab.net ），Since 2012
 -->
 <template>
   <a-form class="smart-query-form">

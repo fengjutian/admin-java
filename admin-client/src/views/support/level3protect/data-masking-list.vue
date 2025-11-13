@@ -1,11 +1,6 @@
 ﻿<!--
   * 数据脱敏
   *
-  * @Author:    -主任：卓大
-  * @Date:      2024-08-02 20:23:08
-  * @Wechat:    zhuda1024
-  * @Email:     lab1024@163.com
-  * @Copyright   （ https://1024lab.net ），Since 2012
 -->
 <template>
   <a-card size="small" :bordered="false" :hoverable="true">

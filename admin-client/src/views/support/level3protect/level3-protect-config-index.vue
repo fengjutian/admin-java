@@ -1,9 +1,6 @@
 ﻿<!--
   * 三级等保配置
   *
-  * @Author:    -主任-卓大
-  * @Date:      2024-07-31 22:02:37
-  * @Copyright  
 -->
 <template>
   <a-alert closable>
