@@ -8,11 +8,6 @@ import net.lab1024.sa.base.common.domain.PageParam;
 /**
  * 通知公告 阅读记录查询
  *
- * @Author 1024创新实验室-主任: 卓大
- * @Date 2022-08-12 21:40:39
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Data
 public class NoticeViewRecordQueryForm extends PageParam {

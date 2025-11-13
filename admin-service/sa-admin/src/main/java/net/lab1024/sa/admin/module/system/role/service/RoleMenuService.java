@@ -28,11 +28,6 @@ import java.util.stream.Collectors;
 /**
  * 角色-菜单
  *
- * @Author 1024创新实验室: 善逸
- * @Date 2021-10-22 23:17:47
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Service
 public class RoleMenuService {

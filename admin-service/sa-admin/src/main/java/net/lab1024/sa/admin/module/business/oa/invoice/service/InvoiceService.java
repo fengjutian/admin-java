@@ -23,11 +23,6 @@ import java.util.Objects;
 /**
  * OA发票信息
  *
- * @Author 1024创新实验室: 善逸
- * @Date 2022-06-23 19:32:59
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Service
 @Slf4j

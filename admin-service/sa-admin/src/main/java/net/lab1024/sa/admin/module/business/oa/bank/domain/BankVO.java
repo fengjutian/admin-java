@@ -8,11 +8,6 @@ import java.time.LocalDateTime;
 /**
  * OA办公-OA银行信息
  *
- * @Author 1024创新实验室:善逸
- * @Date 2022/6/23 21:59:22
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Data
 public class BankVO {

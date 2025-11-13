@@ -12,11 +12,6 @@ import java.util.List;
 /**
  * 角色-菜单 manager
  *
- * @Author 1024创新实验室: 善逸
- * @Date 2022-04-09 19:05:49
- * @Wechat zhuoda1024
- * @Email lab1024@163.com
- * @Copyright  <a href="https://1024lab.net">1024创新实验室</a>
  */
 @Service
 public class RoleMenuManager extends ServiceImpl<RoleMenuDao, RoleMenuEntity> {
