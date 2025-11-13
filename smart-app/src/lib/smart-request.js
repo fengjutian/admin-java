@@ -1,11 +1,11 @@
-/*
+﻿/*
  *  ajax请求
  *
- * @Author:    1024创新实验室-主任：卓大
+ * @Author:    -主任：卓大
  * @Date:      2022-09-06 20:46:03
  * @Wechat:    zhuda1024
  * @Email:     lab1024@163.com
- * @Copyright  1024创新实验室 （ https://1024lab.net ），Since 2012
+ * @Copyright   （ https://1024lab.net ），Since 2012
  */
 import { USER_TOKEN } from '@/constants/local-storage-key-const';
 import { DATA_TYPE_ENUM } from '@/constants/common-const';
@@ -126,3 +126,4 @@ export const uploadRequest = function (filePath, folder) {
     });
   });
 };
+

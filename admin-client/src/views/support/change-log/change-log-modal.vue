@@ -1,9 +1,9 @@
-<!--
+﻿<!--
   * 系统更新日志 查看
   *
   * @Author:    卓大
   * @Date:      2022-09-26 14:53:50
-  * @Copyright  1024创新实验室
+  * @Copyright  
 -->
 <template>
   <a-modal title="更新日志" width="700px" :open="visibleFlag" @cancel="onClose">
@@ -42,3 +42,4 @@
     show,
   });
 </script>
+

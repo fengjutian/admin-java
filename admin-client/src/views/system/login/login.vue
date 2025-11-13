@@ -1,11 +1,11 @@
-<!--
+﻿<!--
   * 登录
   *
-  * @Author:    1024创新实验室-主任：卓大
+  * @Author:    -主任：卓大
   * @Date:      2022-09-12 22:34:00
   * @Wechat:    zhuda1024
   * @Email:     lab1024@163.com
-  * @Copyright  1024创新实验室 （ https://1024lab.net ），Since 2012
+  * @Copyright   （ https://1024lab.net ），Since 2012
   *
 -->
 <template>
@@ -16,7 +16,7 @@
         <p class="desc">
           SmartAdmin 是由 河南·洛阳
           <a target="_blank" href="https://www.1024lab.net" style="color: white; weight: bolder; font-size: 15px; text-decoration: underline"
-            >1024创新实验室（1024Lab）</a
+            >（1024Lab）</a
           >
           基于SpringBoot + Sa-Token + Mybatis-Plus 和 Vue3 + Vite5 + Ant Design Vue 4 (同时支持JavaScript和TypeScript双版本)
           以「高质量代码」为核心，「简洁、高效、安全」的快速开发平台。
@@ -31,7 +31,7 @@
             永远年轻，永远前行 !<br />
             <span class="author">
               <a target="_blank" href="https://zhuoda.vip" style="color: white; font-size: 13px; text-decoration: underline">
-                1024创新实验室-主任：卓大
+                -主任：卓大
               </a>
             </span>
           </span>
@@ -302,3 +302,4 @@
 <style lang="less" scoped>
   @import './login.less';
 </style>
+

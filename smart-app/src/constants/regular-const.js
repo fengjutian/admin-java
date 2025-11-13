@@ -1,11 +1,11 @@
-/*
+﻿/*
  * 正则常量
  *
- * @Author:    1024创新实验室-主任：卓大
+ * @Author:    -主任：卓大
  * @Date:      2022-09-06 19:59:05
  * @Wechat:    zhuda1024
  * @Email:     lab1024@163.com
- * @Copyright  1024创新实验室 （ https://1024lab.net ），Since 2012
+ * @Copyright   （ https://1024lab.net ），Since 2012
  */
 export const regular = {
   phone: /^(13|14|15|16|17|18|19)\d{9}$/,
@@ -26,3 +26,4 @@ export const regular = {
   isIdentityCard: /^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}([0-9]|X|x)$/, // 验证身份证号
   isChinese: /^[\u4e00-\u9fa5]+$/gi, // 验证是否汉字
 };
+

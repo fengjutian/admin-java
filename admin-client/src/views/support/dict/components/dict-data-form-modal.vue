@@ -1,11 +1,11 @@
-<!--
+﻿<!--
   * 字典 数据 表单 弹窗
   *
-  * @Author:    1024创新实验室-主任：卓大
+  * @Author:    -主任：卓大
   * @Date:      2025-03-21 21:50:41
   * @Wechat:    zhuda1024
   * @Email:     lab1024@163.com
-  * @Copyright  1024创新实验室 （ https://1024lab.net ），Since 2012
+  * @Copyright   （ https://1024lab.net ），Since 2012
 -->
 <template>
   <a-modal :open="visible" :title="form.dictDataId ? '编辑字典值' : '添加字典值'" ok-text="确认" cancel-text="取消" @ok="onSubmit" @cancel="onClose">
@@ -102,3 +102,4 @@
     showModal,
   });
 </script>
+

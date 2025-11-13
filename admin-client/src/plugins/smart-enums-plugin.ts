@@ -1,12 +1,12 @@
-/*
+﻿/*
  * 枚举插件
- * 此插件为 1024创新实验室 自创的插件
+ * 此插件为  自创的插件
  *
- * @Author:    1024创新实验室-主任：卓大
+ * @Author:    -主任：卓大
  * @Date:      2022-09-06 20:51:03
  * @Wechat:    zhuda1024
  * @Email:     lab1024@163.com
- * @Copyright  1024创新实验室 （ https://1024lab.net ），Since 2012
+ * @Copyright   （ https://1024lab.net ），Since 2012
  */
 import _ from 'lodash';
 import { App } from 'vue';
@@ -81,3 +81,4 @@ export default {
     app.provide('smartEnumPlugin', smartEnumPlugin);
   },
 };
+

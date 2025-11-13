@@ -1,11 +1,11 @@
-<!--
+﻿<!--
   * 代码生成 配置信息
   *
-  * @Author:    1024创新实验室-主任：卓大
+  * @Author:    -主任：卓大
   * @Date:      2022-09-22 21:50:41
   * @Wechat:    zhuda1024
   * @Email:     lab1024@163.com
-  * @Copyright  1024创新实验室 （ https://1024lab.net ），Since 2012
+  * @Copyright   （ https://1024lab.net ），Since 2012
 -->
 <template>
   <a-alert :closable="true" message="请务必将每一个字段的 “ 字段名词 ” 填写完整！！！" type="success" show-icon>
@@ -233,3 +233,4 @@
 </script>
 
 <style lang="less" scoped></style>
+

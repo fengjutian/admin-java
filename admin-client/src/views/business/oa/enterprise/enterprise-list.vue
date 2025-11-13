@@ -1,11 +1,11 @@
-<!--
+﻿<!--
   * 公司列表
   *
-  * @Author:    1024创新实验室-主任：卓大
+  * @Author:    -主任：卓大
   * @Date:      2022-08-15 20:15:49
   * @Wechat:    zhuda1024
   * @Email:     lab1024@163.com
-  * @Copyright  1024创新实验室 （ https://1024lab.net ），Since 2012
+  * @Copyright   （ https://1024lab.net ），Since 2012
 -->
 <template>
   <a-form class="smart-query-form" v-privilege="'oa:enterprise:query'">
@@ -282,3 +282,4 @@
 
   onMounted(ajaxQuery);
 </script>
+

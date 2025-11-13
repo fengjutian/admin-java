@@ -1,11 +1,11 @@
-<!--
+﻿<!--
   * 字典数据 弹窗
   *
-  * @Author:    1024创新实验室-主任：卓大
+  * @Author:    -主任：卓大
   * @Date:      2025-03-08 21:50:41
   * @Wechat:    zhuda1024
   * @Email:     lab1024@163.com
-  * @Copyright  1024创新实验室 （ https://1024lab.net ），Since 2012
+  * @Copyright   （ https://1024lab.net ），Since 2012
 -->
 <template>
   <a-drawer :width="1000" :open="visible" :body-style="{ paddingBottom: '80px' }" title="字典值" @close="onClose">
@@ -251,3 +251,4 @@
     showModal,
   });
 </script>
+

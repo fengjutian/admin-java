@@ -1,11 +1,11 @@
-<!--
+﻿<!--
   * 修改密码
   *
-  * @Author:    1024创新实验室-主任：卓大
+  * @Author:    -主任：卓大
   * @Date:      2022-09-06 20:02:01
   * @Wechat:    zhuda1024
   * @Email:     lab1024@163.com
-  * @Copyright  1024创新实验室 （ https://1024lab.net ），Since 2012
+  * @Copyright   （ https://1024lab.net ），Since 2012
 -->
 <template>
   <a-modal :open="visible" title="修改密码" ok-text="确认" cancel-text="取消" @ok="updatePwd" @cancel="cancelModal">
@@ -86,3 +86,4 @@
 
   defineExpose({ showModal });
 </script>
+

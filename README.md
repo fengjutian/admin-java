@@ -1,6 +1,6 @@
-### **SmartAdmin**
+﻿### **SmartAdmin**
 
-**SmartAdmin** 由 **中国·洛阳** [1024创新实验室](https://www.1024lab.net/) 基于SpringBoot2/3+Sa-Token+Mybatis-Plus 和 Vue3+Ant Design Vue+Uni-App+Uni-UI，并以 <font color="#DC143C">**「高质量代码」为核心，「简洁、高效、安全」**</font>的快速开发平台。
+**SmartAdmin** 由 **中国·洛阳** [](https://www.1024lab.net/) 基于SpringBoot2/3+Sa-Token+Mybatis-Plus 和 Vue3+Ant Design Vue+Uni-App+Uni-UI，并以 <font color="#DC143C">**「高质量代码」为核心，「简洁、高效、安全」**</font>的快速开发平台。
 
 **<font color="#DC143C">国内首个满足《网络安全-三级等保》、《数据安全》</font>** 功能要求，支持登录限制、接口国产加解密、数据脱敏等一系列安全要求。
 
@@ -81,3 +81,4 @@
 - **【后端-多环境】：** maven多环境：开发、测试、预发布、生产 环境配置
 - **【后端-系统钩子】：** smart-reload，为系统预留钩子，动态加载，在不重启程序前提下执行一些代码
 - 以上只是沧海一粟，更多的细节等待你的发现！[去查看](https://smartadmin.vip)
+

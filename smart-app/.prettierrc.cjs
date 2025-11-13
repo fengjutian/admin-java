@@ -1,11 +1,11 @@
-/*
+﻿/*
  * 代码格式化配置
  *
- * @Author:    1024创新实验室-主任：卓大
+ * @Author:    -主任：卓大
  * @Date:      2022-09-12 14:44:18
  * @Wechat:    zhuda1024
  * @Email:     lab1024@163.com
- * @Copyright  1024创新实验室 （ https://1024lab.net ），Since 2012
+ * @Copyright   （ https://1024lab.net ），Since 2012
  */
 module.exports = {
   printWidth: 150, // 每行代码长度（默认80）
@@ -28,3 +28,4 @@ module.exports = {
   htmlWhitespaceSensitivity: 'css', // 指定HTML文件的全局空格敏感度 css\strict\ignore
   endOfLine: 'auto', // 因为prettier的规范和eslint的换行规则不同，所以这个必须配置。要不然每次打开文件都会有一堆的警告;换行符使用 lf 结尾是 可选值"<auto|lf|crlf|cr
 };
+

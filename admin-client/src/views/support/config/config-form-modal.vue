@@ -1,11 +1,11 @@
-<!--
+﻿<!--
   * 系统设置表单
   * 
-  * @Author:    1024创新实验室-主任：卓大 
+  * @Author:    -主任：卓大 
   * @Date:      2022-06-08 21:50:41 
   * @Wechat:    zhuda1024 
   * @Email:     lab1024@163.com 
-  * @Copyright  1024创新实验室 （ https://1024lab.net ），Since 2012 
+  * @Copyright   （ https://1024lab.net ），Since 2012 
 -->
 <template>
   <a-modal :open="visible" :title="form.configId ? '编辑' : '添加'" ok-text="确认" cancel-text="取消" @ok="onSubmit" @cancel="onClose">
@@ -97,3 +97,4 @@
     showModal,
   });
 </script>
+

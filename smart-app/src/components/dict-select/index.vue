@@ -1,11 +1,11 @@
-<!---
+﻿<!---
   * 字段 下拉选择框
   * 
-  * @Author:    1024创新实验室：罗伊
+  * @Author:    ：罗伊
   * @Date:      2022-09-12 22:06:45 
   * @Wechat:    zhuda1024 
   * @Email:     lab1024@163.com 
-  * @Copyright  1024创新实验室 （ https://1024lab.net ），Since 2012 
+  * @Copyright   （ https://1024lab.net ），Since 2012 
   *
 -->
 <template>
@@ -53,3 +53,4 @@
     emit('change', find.value, find.text);
   }
 </script>
+

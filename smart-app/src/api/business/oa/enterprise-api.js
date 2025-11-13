@@ -1,11 +1,11 @@
-/*
+﻿/*
  * 企业信息
  *
  * @Author:    开云
  * @Date:      2023-09-03 21:47:28
  * @Wechat:    zhuda1024
  * @Email:     lab1024@163.com
- * @Copyright  1024创新实验室 （ https://1024lab.net ），Since 2012
+ * @Copyright   （ https://1024lab.net ），Since 2012
  */
 import { postRequest, getRequest } from '@/lib/smart-request';
 
@@ -35,3 +35,4 @@ export const enterpriseApi = {
     return getRequest(`/oa/enterprise/delete/${enterpriseId}`);
   },
 };
+

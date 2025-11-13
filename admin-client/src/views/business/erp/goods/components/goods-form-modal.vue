@@ -1,11 +1,11 @@
-<!--
+﻿<!--
   * 商品表单
   *
-  * @Author:    1024创新实验室-主任：卓大
+  * @Author:    -主任：卓大
   * @Date:      2022-07-21 21:55:12
   * @Wechat:    zhuda1024
   * @Email:     lab1024@163.com
-  * @Copyright  1024创新实验室 （ https://1024lab.net ），Since 2012
+  * @Copyright   （ https://1024lab.net ），Since 2012
 -->
 <template>
   <a-drawer :title="form.goodsId ? '编辑' : '添加'" :width="500" :open="visible" :body-style="{ paddingBottom: '80px' }" @close="onClose">
@@ -151,3 +151,4 @@
     showDrawer,
   });
 </script>
+

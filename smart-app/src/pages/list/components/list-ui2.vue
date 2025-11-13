@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <view class="list-view">
     <view class="item">
       <view class="item-header">
@@ -11,7 +11,7 @@
         <view class="line-border-bottom"> </view>
         <view class="item-title"> 小米手机20S </view>
         <view class="item-sub-title"> 订单金额：¥5852.00 </view>
-        <view class="item-sub-title"> 客户：1024创新实验室 </view>
+        <view class="item-sub-title"> 客户： </view>
         <view class="item-sub-title"> 下单时间： 2023-08-20 19:15 </view>
       </view>
 
@@ -141,3 +141,4 @@
     border-bottom: 1rpx solid #ededed;
   }
 </style>
+
