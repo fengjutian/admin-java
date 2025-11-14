@@ -30,5 +30,5 @@ public class ShopQueryForm extends PageParam {
     private Integer status;
 
     @Schema(description = "删除状态", hidden = true)
-    private Boolean deletedFlag;
+    private Integer deletedFlag;
 }

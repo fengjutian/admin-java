@@ -1304,3 +1304,52 @@ CREATE TABLE `t_table_column`  (
 
 SET FOREIGN_KEY_CHECKS = 1;
 
+DROP TABLE IF EXISTS `shop`;
+
+CREATE TABLE `shop` (
+    `id` BIGINT NOT NULL AUTO_INCREMENT COMMENT '店铺ID',
+    `name` VARCHAR(100) NOT NULL COMMENT '店铺名称',
+    `owner_id` BIGINT NOT NULL COMMENT '店主ID',
+    `logo_url` VARCHAR(255) DEFAULT NULL COMMENT '店铺logo',
+    `description` TEXT COMMENT '店铺简介',
+    `status` TINYINT NOT NULL DEFAULT 1 COMMENT '状态 0禁用 1正常',
+
+    `created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+    `updated_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+
+    `is_deleted` TINYINT NOT NULL DEFAULT 0 COMMENT '逻辑删除 0正常 1删除',
+
+    PRIMARY KEY (`id`),
+    KEY `idx_owner_id`(`owner_id`),
+    KEY `idx_status`(`status`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='店铺表';
+
+
+
+DROP TABLE IF EXISTS `product`;
+
+CREATE TABLE `product` (
+    `id` BIGINT NOT NULL AUTO_INCREMENT COMMENT '商品ID',
+    `shop_id` BIGINT NOT NULL COMMENT '所属店铺ID',
+    `name` VARCHAR(200) NOT NULL COMMENT '商品名称',
+    `price` DECIMAL(10,2) NOT NULL COMMENT '商品价格',
+    `stock` INT NOT NULL DEFAULT 0 COMMENT '库存数量',
+    `cover_image` VARCHAR(255) DEFAULT NULL COMMENT '商品主图',
+    `category_id` BIGINT DEFAULT NULL COMMENT '商品分类ID',
+    `status` TINYINT NOT NULL DEFAULT 1 COMMENT '商品状态：0下架 1上架',
+
+    `created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+    `updated_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+
+    `is_deleted` TINYINT NOT NULL DEFAULT 0 COMMENT '逻辑删除：0正常 1删除',
+
+    PRIMARY KEY (`id`),
+    KEY `idx_shop_id` (`shop_id`),
+    KEY `idx_category_id` (`category_id`),
+    KEY `idx_status` (`status`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='商品表';
+
+
+
+
+

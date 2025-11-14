@@ -48,7 +48,7 @@ public class ShopServiceImpl implements ShopService {
         // 检查店铺名称是否重复
         LambdaQueryWrapper<Shop> queryWrapper = new LambdaQueryWrapper<>();
         queryWrapper.eq(Shop::getName, shop.getName())
-                   .eq(Shop::getIsDeleted, false);
+                   .eq(Shop::getIsDeleted, 0);
         Shop existShop = shopMapper.selectOne(queryWrapper);
         if (existShop != null) {
             return ResponseDTO.userErrorParam("店铺名称已存在");
@@ -59,10 +59,8 @@ public class ShopServiceImpl implements ShopService {
             shop.setStatus(ShopStatusEnum.ENABLE.getValue());
         }
 
-        // 设置创建时间
-        shop.setCreateTime(LocalDateTime.now());
-        shop.setUpdateTime(LocalDateTime.now());
-        shop.setIsDeleted(false);
+        // 设置删除标记
+        shop.setIsDeleted(0);
 
         int result = shopMapper.insert(shop);
         if (result > 0) {
@@ -84,7 +82,7 @@ public class ShopServiceImpl implements ShopService {
         
         // 检查店铺是否存在
         Shop existShop = shopMapper.selectById(shop.getId());
-        if (existShop == null || existShop.getIsDeleted()) {
+        if (existShop == null || existShop.getIsDeleted() == 1) {
             return ResponseDTO.userErrorParam("店铺不存在");
         }
 
@@ -92,16 +90,13 @@ public class ShopServiceImpl implements ShopService {
         if (StringUtils.hasText(shop.getName()) && !Objects.equals(existShop.getName(), shop.getName())) {
             LambdaQueryWrapper<Shop> queryWrapper = new LambdaQueryWrapper<>();
             queryWrapper.eq(Shop::getName, shop.getName())
-                       .eq(Shop::getIsDeleted, false)
+                       .eq(Shop::getIsDeleted, 0)
                        .ne(Shop::getId, shop.getId());
             Shop nameExistShop = shopMapper.selectOne(queryWrapper);
             if (nameExistShop != null) {
                 return ResponseDTO.userErrorParam("店铺名称已存在");
             }
         }
-
-        // 设置更新时间
-        shop.setUpdateTime(LocalDateTime.now());
 
         int result = shopMapper.updateById(shop);
         if (result > 0) {
@@ -123,15 +118,14 @@ public class ShopServiceImpl implements ShopService {
         
         // 检查店铺是否存在
         Shop existShop = shopMapper.selectById(id);
-        if (existShop == null || existShop.getIsDeleted()) {
+        if (existShop == null || existShop.getIsDeleted() == 1) {
             return ResponseDTO.userErrorParam("店铺不存在");
         }
 
         // 逻辑删除
         Shop updateShop = new Shop();
         updateShop.setId(id);
-        updateShop.setIsDeleted(true);
-        updateShop.setUpdateTime(LocalDateTime.now());
+        updateShop.setIsDeleted(1);
 
         int result = shopMapper.updateById(updateShop);
         if (result > 0) {
@@ -151,7 +145,7 @@ public class ShopServiceImpl implements ShopService {
         }
         
         Shop shop = shopMapper.selectById(id);
-        if (shop == null || shop.getIsDeleted()) {
+        if (shop == null || shop.getIsDeleted() == 1) {
             return ResponseDTO.userErrorParam("店铺不存在");
         }
 
@@ -161,12 +155,12 @@ public class ShopServiceImpl implements ShopService {
     @Override
     public ResponseDTO<PageResult<Shop>> queryPage(ShopQueryForm queryForm) {
         // 设置未删除状态
-        queryForm.setDeletedFlag(false);
+        queryForm.setDeletedFlag(0);
         
         Page<Shop> page = (Page<Shop>) SmartPageUtil.convert2PageQuery(queryForm);
         
         LambdaQueryWrapper<Shop> queryWrapper = new LambdaQueryWrapper<>();
-        queryWrapper.eq(Shop::getIsDeleted, false);
+        queryWrapper.eq(Shop::getIsDeleted, 0);
         
         // 查询条件
         if (StringUtils.hasText(queryForm.getName())) {
