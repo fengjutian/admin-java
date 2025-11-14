@@ -1,15 +1,4 @@
-﻿### **xxx**
-
-**xxx** 由 **中国·洛阳** [](https://www.1024lab.net/) 基于SpringBoot2/3+Sa-Token+Mybatis-Plus 和 Vue3+Ant Design Vue+Uni-App+Uni-UI，并以 <font color="#DC143C">**「高质量代码」为核心，「简洁、高效、安全」**</font>的快速开发平台。
-
-**<font color="#DC143C">国内首个满足《网络安全-三级等保》、《数据安全》</font>** 功能要求，支持登录限制、接口国产加解密、数据脱敏等一系列安全要求。
-
-**<font color="#DC143C">支持国产数据库：达梦、金仓、南大通用、OceanBase、GaussDB 高斯、阿里PolarDB、GoldenDB。 </font>**
-
-前端提供 **<font color="#DC143C">JavaScript和TypeScript双版本</font>**，后端提供 **<font color="#DC143C">Java8+SpringBoot2.X和Java17+SpringBoot3.X 双版本</font>**。
-
-同时 **<font color="#DC143C">重磅开源</font>** 开源六年来 **<font color="#DC143C">千余家企业验证过且正在使用</font>** 的代码规范: **<font color="#DC143C">《高质量代码思想》、《Vue3规范》、《Java规范》</font>** ，让大家在这浮躁的世界里感受到一股把代码写好的清流！同时又能节省大量时间，减少加班，快乐工作，保持谦逊，保持学习，**<font color="#DC143C">热爱代码，更热爱生活</font>** ！
-### **技术体系**
+﻿### **技术体系**
 
 - 前端：JavaScript/TypeScript + Vue3 + Vite5 + Pinia + Ant Design Vue 4.X
 - 移动端：uniapp (vue3版本) + uni-ui + （同时支持APP、小程序、H5）
@@ -51,7 +40,7 @@
 </tr>
 </table>
 
-### **功能亮点**
+### **功能**
 
 - **<font color="#DC143C">安全体系</font>**：满足国家三级等保要求，如双因子登录、密码加密、密码复杂度要求、登录错误次数锁定、登录超时退出、数据脱敏等网络安全和数据安全功能
 - **<font color="#DC143C">接口加解密</font>**：支持请求参数和返回内容进行加解密操作，支持国产加密算法和其他国外加密算法
@@ -65,7 +54,7 @@
 - **以上只是一些举例，更多灿若繁星的惊喜和细节，等待着你的发现！**：[xxx 业内独有功能亮点](https://smartadmin.vip)
 
 
-### **代码亮点**
+### **代码**
 
 - **【前端-双版本】：** 提供 js 和 ts 双版本，目录结构及其清晰
 - **【前端-常量维护】：** vue-enum，拒绝出现魔法数字，常量枚举不可维护的现象
