@@ -12,9 +12,6 @@ import static org.mockito.Mockito.*;
 
 /**
  * AI服务单元测试类
- * 
- * @author Spring Boot AI Integration
- * @date 2024-01-01
  */
 public class AIServiceUnitTest {
 
