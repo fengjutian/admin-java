@@ -1,4 +1,4 @@
-package net.lab1024.sa.base.module.ai;
+package net.lab1024.sa.base.module.support.ai;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;

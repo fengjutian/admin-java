@@ -1,4 +1,4 @@
-package net.lab1024.sa.base.module.ai;
+package net.lab1024.sa.base.module.support.ai;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.openai.OpenAiChatModel;
