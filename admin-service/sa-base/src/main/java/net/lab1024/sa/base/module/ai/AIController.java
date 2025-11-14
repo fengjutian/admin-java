@@ -28,13 +28,13 @@ public class AIController extends SupportBaseController {
     @Operation(summary = "AI聊天对话")
     @PostMapping("/ai/chat")
     public ResponseDTO<String> chat(@Valid @RequestBody ChatRequest request) {
-        try {
-            String response = aiService.chat(request.getMessage());
-            return ResponseDTO.ok(response);
-        } catch (Exception e) {
-            log.error("AI聊天接口异常", e);
-            return ResponseDTO.error(UserErrorCode.PARAM_ERROR, "AI服务暂时不可用");
-        }
+      try {
+        String response = aiService.chat(request.getMessage());
+        return ResponseDTO.ok(response);
+      } catch (Exception e) {
+        log.error("AI聊天接口异常", e);
+        return ResponseDTO.error(UserErrorCode.PARAM_ERROR, "AI服务暂时不可用");
+      }
     }
 
     @Operation(summary = "代码生成")
