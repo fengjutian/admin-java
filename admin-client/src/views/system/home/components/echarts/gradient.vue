@@ -27,7 +27,7 @@
         },
       },
       legend: {
-        data: ['罗伊', '佩弦', '开云', '清野', '飞叶'],
+        data: ['', '佩弦', '开云', '清野', '飞叶'],
       },
       grid: {
         left: '3%',
@@ -49,7 +49,7 @@
       ],
       series: [
         {
-          name: '罗伊',
+          name: '',
           type: 'line',
           stack: 'Total',
           smooth: true,

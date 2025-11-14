@@ -52,7 +52,7 @@
             { value: 10, name: '初晓' },
             { value: 8, name: '善逸' },
             { value: 3, name: '胡克' },
-            { value: 1, name: '罗伊' },
+            { value: 1, name: '' },
           ],
         },
       ],

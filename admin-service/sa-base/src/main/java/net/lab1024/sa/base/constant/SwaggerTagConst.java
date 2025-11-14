@@ -49,6 +49,8 @@ public class SwaggerTagConst {
         public static final String JOB = "业务支撑-定时任务";
 
         public static final String MESSAGE = "业务支撑-消息";
+
+        public static final String AI = "业务支撑-AI服务";
     }
 
 }

@@ -102,14 +102,14 @@ public class EnterpriseController {
     }
 
 
-    @Operation(summary = "企业添加员工  罗伊")
+    @Operation(summary = "企业添加员工  ")
     @PostMapping("/oa/enterprise/employee/add")
     @SaCheckPermission("oa:enterprise:addEmployee")
     public ResponseDTO<String> addEmployee(@RequestBody @Valid EnterpriseEmployeeForm enterpriseEmployeeForm) {
         return enterpriseService.addEmployee(enterpriseEmployeeForm);
     }
 
-    @Operation(summary = "查询企业全部员工  罗伊")
+    @Operation(summary = "查询企业全部员工  ")
     @PostMapping("/oa/enterprise/employee/list")
     @SaCheckPermission("oa:enterprise:queryEmployee")
     public ResponseDTO<List<EnterpriseEmployeeVO>> employeeList(@RequestBody @Valid List<Long> enterpriseIdList) {
@@ -124,7 +124,7 @@ public class EnterpriseController {
     }
 
 
-    @Operation(summary = "企业删除员工  罗伊")
+    @Operation(summary = "企业删除员工  ")
     @PostMapping("/oa/enterprise/employee/delete")
     @SaCheckPermission("oa:enterprise:deleteEmployee")
     public ResponseDTO<String> deleteEmployee(@RequestBody @Valid EnterpriseEmployeeForm enterpriseEmployeeForm) {

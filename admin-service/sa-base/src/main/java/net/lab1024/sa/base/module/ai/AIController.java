@@ -4,7 +4,9 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
 import net.lab1024.sa.base.common.code.UserErrorCode;
+import net.lab1024.sa.base.common.controller.SupportBaseController;
 import net.lab1024.sa.base.common.domain.ResponseDTO;
+import net.lab1024.sa.base.constant.SwaggerTagConst;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,9 +19,9 @@ import jakarta.validation.constraints.Size;
  */
 @Slf4j
 @RestController
-@RequestMapping("/ai")
-@Tag(name = "AI服务", description = "AI相关接口")
-public class AIController {
+@RequestMapping("/support/ai")
+@Tag(name = SwaggerTagConst.Support.AI)
+public class AIController extends SupportBaseController {
 
     @Autowired
     private AIService aiService;

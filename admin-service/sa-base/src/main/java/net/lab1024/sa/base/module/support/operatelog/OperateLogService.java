@@ -26,7 +26,7 @@ public class OperateLogService {
     private OperateLogDao operateLogDao;
 
     /**
-     *  罗伊
+     *  
      * @description 分页查询
      */
     public ResponseDTO<PageResult<OperateLogVO>> queryByPage(OperateLogQueryForm queryForm) {
