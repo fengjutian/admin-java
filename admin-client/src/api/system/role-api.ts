@@ -1,36 +1,22 @@
-﻿/*
- * 角色
- */
-import { getRequest, postRequest } from '/@/lib/axios';
+﻿import { getRequest, postRequest } from '/@/lib/axios';
 
 export const roleApi = {
-  /**
-   * @description: 获取所有角色
-   */
   queryAll: () => {
     return getRequest('/role/getAll');
   },
-  /**
-   * @description:添加角色
-   */
+
   addRole: (data) => {
     return postRequest('/role/add', data);
   },
-  /**
-   * @description:更新角色
-   */
+
   updateRole: (data) => {
     return postRequest('/role/update', data);
   },
-  /**
-   * @description: 删除角色
-   */
+
   deleteRole: (roleId) => {
     return getRequest(`/role/delete/${roleId}`);
   },
-  /**
-   * @description: 批量设置某角色数据范围
-   */
+
   updateDataScope: (data) => {
     return postRequest('/role/dataScope/updateRoleDataScopeList', data);
   },

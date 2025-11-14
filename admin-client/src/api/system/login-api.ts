@@ -1,7 +1,4 @@
-﻿/*
- *  登录
- */
-import { getRequest, postRequest } from '/@/lib/axios';
+﻿import { getRequest, postRequest } from '/@/lib/axios';
 
 export const loginApi = {
   /**

@@ -1,8 +1,4 @@
-﻿/*
- *  ajax请求
- *
- */
-import { message, Modal } from 'ant-design-vue';
+﻿import { message, Modal } from 'ant-design-vue';
 import axios from 'axios';
 import { localRead } from '/@/utils/local-util';
 import { useUserStore } from '/@/store/modules/system/user';
@@ -25,8 +21,6 @@ function logout() {
   location.href = '/';
 }
 
-// ================================= 请求拦截器 =================================
-
 smartAxios.interceptors.request.use(
   (config) => {
     // 在发送请求之前消息头加入token token
@@ -43,8 +37,6 @@ smartAxios.interceptors.request.use(
     return Promise.reject(error);
   }
 );
-
-// ================================= 响应拦截器 =================================
 
 // 添加响应拦截器
 smartAxios.interceptors.response.use(
@@ -121,8 +113,6 @@ smartAxios.interceptors.response.use(
   }
 );
 
-// ================================= 对外提供请求方法：通用请求，get， post, 下载download等 =================================
-
 /**
  * get请求
  */
@@ -149,8 +139,6 @@ export const postRequest = (url, data) => {
   });
 };
 
-// ================================= 加密 =================================
-
 /**
  * 加密请求参数的post请求
  */
@@ -161,8 +149,6 @@ export const postEncryptRequest = (url, data) => {
     method: 'post',
   });
 };
-
-// ================================= 下载 =================================
 
 export const postDownload = function (url, data) {
   request({
