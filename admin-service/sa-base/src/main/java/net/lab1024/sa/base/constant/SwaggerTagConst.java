@@ -1,9 +1,5 @@
 package net.lab1024.sa.base.constant;
 
-/**
- * swagger
- *
- */
 public class SwaggerTagConst {
 
     public static class Support {

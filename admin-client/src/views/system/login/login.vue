@@ -9,11 +9,8 @@
       <div class="welcome">
         <p>欢迎登录 xxx</p>
         <p class="desc">
-          xxx 是由 河南·洛阳
-          <a target="_blank" href="https://www.1024lab.net" style="color: white; weight: bolder; font-size: 15px; text-decoration: underline"
-            >（1024Lab）</a
-          >
-          基于SpringBoot + Sa-Token + Mybatis-Plus 和 Vue3 + Vite5 + Ant Design Vue 4 (同时支持JavaScript和TypeScript双版本)
+    
+          基于SpringBoot + Sa-Token + Mybatis-Plus 和 Vue3 + Vite5 + Ant Design Vue 4 
           以「高质量代码」为核心，「简洁、高效、安全」的快速开发平台。
           <br />
           <br />
@@ -25,26 +22,14 @@
             保持谦逊，保持学习，热爱代码，更热爱生活 !<br />
             永远年轻，永远前行 !<br />
             <span class="author">
-              <a target="_blank" href="https://zhuoda.vip" style="color: white; font-size: 13px; text-decoration: underline">
-                -主任：
-              </a>
+          
             </span>
           </span>
         </p>
       </div>
       <div class="app-qr-box">
-        <div class="app-qr">
-          <img :src="zhuoda" />
-          <span class="qr-desc"> 加微信，骚扰 :) </span>
-        </div>
-        <div class="app-qr">
-          <img :src="gzh" />
-          <div class="qr-desc-marquee">
-            <div class="marquee">
-              <span>关注：六边形工程师，分享：赚钱、代码、生活</span>
-            </div>
-          </div>
-        </div>
+    
+    
       </div>
     </div>
     <div class="box-item login">
