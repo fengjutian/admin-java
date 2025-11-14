@@ -11,7 +11,6 @@ import java.time.LocalDateTime;
 
 /**
  * 店铺 实体类
- *
  */
 @Data
 @TableName("shop")
