@@ -75,17 +75,9 @@ spring:
   cache:
     type: caffeine
 
-  # Spring Boot AI 配置
+  # Spring AI 配置
   ai:
-    openai:
-      api-key: ${OPENAI_API_KEY:your-openai-api-key}
-      chat:
-        options:
-          model: gpt-3.5-turbo
-          temperature: 0.7
-      embedding:
-        options:
-          model: text-embedding-ada-002
+    api-key: ${AI_API_KEY:your-ai-api-key}
 
 # 健康检查
 management:

@@ -117,7 +117,12 @@ public class MyBatisPlugin extends DataScopePlugin {
     }
 
     public DataScopeSqlConfigService dataScopeSqlConfigService() {
-        return (DataScopeSqlConfigService) applicationContext.getBean("dataScopeSqlConfigService");
+        try {
+            return (DataScopeSqlConfigService) applicationContext.getBean("dataScopeSqlConfigService");
+        } catch (Exception e) {
+            // 忽略异常，返回null
+            return null;
+        }
     }
 
     public class BoundSqlSqlSource implements SqlSource {
