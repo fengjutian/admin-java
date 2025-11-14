@@ -19,7 +19,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>17</java.version>
-        <springboot.version>3.5.4</springboot.version>
+        <springboot.version>3.5.7</springboot.version>
         <lombok.version>1.18.38</lombok.version>
         <spring-security-crypto.version>6.5.1</spring-security-crypto.version>
         <mybatis-plus.version>3.5.12</mybatis-plus.version>
@@ -54,6 +54,7 @@
         <jsoup.version>1.21.1</jsoup.version>
         <tika.version>3.1.0</tika.version>
         <httpcomponents.version>5.5</httpcomponents.version>
+        <spring-ai.version>1.0.0</spring-ai.version>
     </properties>
 
     <dependencyManagement>
@@ -77,6 +78,15 @@
                 <scope>import</scope>
             </dependency>
             <!--mybatis-plus BOM end-->
+            <!--Spring AI BOM begin-->
+            <dependency>
+                <groupId>org.springframework.ai</groupId>
+                <artifactId>spring-ai-bom</artifactId>
+                <version>${spring-ai.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!--Spring AI BOM end-->
 
             <dependency>
                 <groupId>org.springframework.security</groupId>
