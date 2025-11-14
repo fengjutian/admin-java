@@ -1,8 +1,21 @@
 package net.lab1024.sa.admin.module.system.employee.service;
 
-import cn.dev33.satoken.stp.StpUtil;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
+import java.util.Objects;
+import java.util.stream.Collectors;
+
+import org.apache.commons.collections4.CollectionUtils;
+import org.springframework.context.annotation.Lazy;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.google.common.collect.Lists;
+
+import cn.dev33.satoken.stp.StpUtil;
 import jakarta.annotation.Resource;
 import net.lab1024.sa.admin.module.system.department.dao.DepartmentDao;
 import net.lab1024.sa.admin.module.system.department.domain.entity.DepartmentEntity;
@@ -10,7 +23,13 @@ import net.lab1024.sa.admin.module.system.department.domain.vo.DepartmentVO;
 import net.lab1024.sa.admin.module.system.department.service.DepartmentService;
 import net.lab1024.sa.admin.module.system.employee.dao.EmployeeDao;
 import net.lab1024.sa.admin.module.system.employee.domain.entity.EmployeeEntity;
-import net.lab1024.sa.admin.module.system.employee.domain.form.*;
+import net.lab1024.sa.admin.module.system.employee.domain.form.EmployeeAddForm;
+import net.lab1024.sa.admin.module.system.employee.domain.form.EmployeeBatchUpdateDepartmentForm;
+import net.lab1024.sa.admin.module.system.employee.domain.form.EmployeeQueryForm;
+import net.lab1024.sa.admin.module.system.employee.domain.form.EmployeeUpdateAvatarForm;
+import net.lab1024.sa.admin.module.system.employee.domain.form.EmployeeUpdateCenterForm;
+import net.lab1024.sa.admin.module.system.employee.domain.form.EmployeeUpdateForm;
+import net.lab1024.sa.admin.module.system.employee.domain.form.EmployeeUpdatePasswordForm;
 import net.lab1024.sa.admin.module.system.employee.domain.vo.EmployeeVO;
 import net.lab1024.sa.admin.module.system.employee.manager.EmployeeManager;
 import net.lab1024.sa.admin.module.system.login.service.LoginService;
@@ -27,13 +46,6 @@ import net.lab1024.sa.base.common.enumeration.UserTypeEnum;
 import net.lab1024.sa.base.common.util.SmartBeanUtil;
 import net.lab1024.sa.base.common.util.SmartPageUtil;
 import net.lab1024.sa.base.module.support.securityprotect.service.SecurityPasswordService;
-import org.apache.commons.collections4.CollectionUtils;
-import org.springframework.context.annotation.Lazy;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-
-import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * 员工 service

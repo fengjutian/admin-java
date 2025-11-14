@@ -1,7 +1,5 @@
 package net.lab1024.sa.admin;
 
-import net.lab1024.sa.base.listener.Ip2RegionListener;
-import net.lab1024.sa.base.listener.LogVariableListener;
 import org.apache.ibatis.annotations.Mapper;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -12,6 +10,9 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.scheduling.annotation.EnableScheduling;
+
+import net.lab1024.sa.base.listener.Ip2RegionListener;
+import net.lab1024.sa.base.listener.LogVariableListener;
 
 @EnableScheduling
 @EnableCaching
