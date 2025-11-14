@@ -1,4 +1,4 @@
-package net.lab1024.sa.base.module.support.ai;
+package net.lab1024.sa.base.module.support.ai.controller;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -7,6 +7,8 @@ import net.lab1024.sa.base.common.code.UserErrorCode;
 import net.lab1024.sa.base.common.controller.SupportBaseController;
 import net.lab1024.sa.base.common.domain.ResponseDTO;
 import net.lab1024.sa.base.constant.SwaggerTagConst;
+import net.lab1024.sa.base.module.support.ai.service.AIService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,8 +20,8 @@ import jakarta.validation.constraints.Size;
  * AI服务控制器
  */
 @Slf4j
-@RestController
 @Tag(name = SwaggerTagConst.Support.AI)
+@RestController
 public class AIController extends SupportBaseController {
 
     @Autowired
