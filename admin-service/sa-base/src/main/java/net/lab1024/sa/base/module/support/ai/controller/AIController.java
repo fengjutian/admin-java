@@ -4,29 +4,26 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
 import net.lab1024.sa.base.common.annoation.NoNeedLogin;
-// import net.lab1024.sa.base.common.code.UserErrorCode;
+import net.lab1024.sa.base.common.code.UserErrorCode;
 import net.lab1024.sa.base.common.controller.SupportBaseController;
 import net.lab1024.sa.base.common.domain.ResponseDTO;
 import net.lab1024.sa.base.constant.SwaggerTagConst;
-// import net.lab1024.sa.base.module.support.ai.service.AIService;
+import net.lab1024.sa.base.module.support.ai.service.AIService;
 
 import org.springframework.web.bind.annotation.*;
 
-// import jakarta.annotation.Resource;
+import jakarta.annotation.Resource;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
-/**
- * AI服务控制器
- */
 @Slf4j
 @Tag(name = SwaggerTagConst.Support.AI)
 @RestController
 public class AIController extends SupportBaseController {
 
-    // @Resource
-    // private AIService aiService;
+    @Resource
+    private AIService aiService;
 
     // @Operation(summary = "AI聊天对话")
     // @PostMapping("/ai/chat")
@@ -47,17 +44,18 @@ public class AIController extends SupportBaseController {
         return ResponseDTO.ok("hello world");
     }
 
-    // @Operation(summary = "代码生成")
-    // @PostMapping("/ai/generate-code")
-    // public ResponseDTO<String> generateCode(@Valid @RequestBody CodeGenerateRequest request) {
-    //     try {
-    //         String code = aiService.generateCode(request.getLanguage(), request.getDescription());
-    //         return ResponseDTO.ok(code);
-    //     } catch (Exception e) {
-    //         log.error("代码生成接口异常", e);
-    //         return ResponseDTO.error(UserErrorCode.PARAM_ERROR, "代码生成服务暂时不可用");
-    //     }
-    // }
+    @Operation(summary = "代码生成")
+    @PostMapping("/ai/generate-code")
+    @NoNeedLogin
+    public ResponseDTO<String> generateCode(@Valid @RequestBody CodeGenerateRequest request) {
+        try {
+            String code = aiService.generateCode(request.getLanguage(), request.getDescription());
+            return ResponseDTO.ok(code);
+        } catch (Exception e) {
+            log.error("代码生成接口异常", e);
+            return ResponseDTO.error(UserErrorCode.PARAM_ERROR, "代码生成服务暂时不可用");
+        }
+    }
 
     // @Operation(summary = "文本摘要")
     // @PostMapping("/ai/summarize")
@@ -88,33 +86,33 @@ public class AIController extends SupportBaseController {
         }
     }
 
-    // /**
-    //  * 代码生成请求DTO
-    //  */
-    // public static class CodeGenerateRequest {
-    //     @NotBlank(message = "编程语言不能为空")
-    //     private String language;
+    /**
+     * 代码生成请求DTO
+     */
+    public static class CodeGenerateRequest {
+        @NotBlank(message = "编程语言不能为空")
+        private String language;
 
-    //     @NotBlank(message = "功能描述不能为空")
-    //     @Size(max = 500, message = "功能描述不能超过500字符")
-    //     private String description;
+        @NotBlank(message = "功能描述不能为空")
+        @Size(max = 500, message = "功能描述不能超过500字符")
+        private String description;
 
-    //     public String getLanguage() {
-    //         return language;
-    //     }
+        public String getLanguage() {
+            return language;
+        }
 
-    //     public void setLanguage(String language) {
-    //         this.language = language;
-    //     }
+        public void setLanguage(String language) {
+            this.language = language;
+        }
 
-    //     public String getDescription() {
-    //         return description;
-    //     }
+        public String getDescription() {
+            return description;
+        }
 
-    //     public void setDescription(String description) {
-    //         this.description = description;
-    //     }
-    // }
+        public void setDescription(String description) {
+            this.description = description;
+        }
+    }
 
     // /**
     //  * 文本摘要请求DTO
