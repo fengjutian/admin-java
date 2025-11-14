@@ -2,8 +2,7 @@ package net.lab1024.sa.base.module.support.ai;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.openai.OpenAiChatModel;
-import org.springframework.ai.chat.model.ChatResponse;
-import org.springframework.ai.chat.prompt.Prompt;
+import org.springframework.ai.openai.OpenAiChatOptions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -15,15 +14,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class AIService {
 
-    private final OpenAiChatModel chatModel;
-
     @Value("${spring.ai.openai.api-key:your-openai-api-key}")
     private String apiKey;
 
     @Autowired
-    public AIService(OpenAiChatModel chatModel) {
-        this.chatModel = chatModel;
-    }
+    private OpenAiChatModel chatModel;
 
     /**
      * 简单聊天对话
@@ -33,8 +28,12 @@ public class AIService {
      */
     public String chat(String message) {
         try {
-          ChatResponse response = chatModel.call(new Prompt(message));
-          return response.getResult().getOutput().getText();
+            if (chatModel != null) {
+                return chatModel.call(message);
+            } else {
+                log.warn("OpenAI ChatModel未正确初始化，返回模拟响应");
+                return "您好！这是一个模拟的AI回复。当前OpenAI服务未配置。";
+            }
         } catch (Exception e) {
           log.error("AI聊天服务异常", e);
           return "抱歉，AI服务暂时不可用，请稍后再试。";

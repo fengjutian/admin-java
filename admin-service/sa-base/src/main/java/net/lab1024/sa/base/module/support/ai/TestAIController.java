@@ -17,7 +17,6 @@ public class TestAIController extends SupportBaseController {
 
     @GetMapping("/hello")
     public ResponseDTO<String> hello() {
-        log.info("测试AI控制器被访问");
         return ResponseDTO.ok("Hello from AI Controller!");
     }
 }

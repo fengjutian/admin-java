@@ -75,6 +75,18 @@ spring:
   cache:
     type: caffeine
 
+  # Spring Boot AI 配置
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY:your-openai-api-key}
+      chat:
+        options:
+          model: gpt-3.5-turbo
+          temperature: 0.7
+      embedding:
+        options:
+          model: text-embedding-ada-002
+
 # 健康检查
 management:
   endpoints:
@@ -185,16 +197,3 @@ smart:
     db-refresh-enabled: true
     # 数据库配置检测-执行间隔 默认120秒 可选
     db-refresh-interval: 60
-
-# Spring Boot AI 配置
-spring:
-  ai:
-    openai:
-      api-key: ${OPENAI_API_KEY:your-openai-api-key}
-      chat:
-        options:
-          model: gpt-3.5-turbo
-          temperature: 0.7
-      embedding:
-        options:
-          model: text-embedding-ada-002
