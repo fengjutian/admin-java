@@ -24,7 +24,7 @@ export const enterpriseApi = {
         return postRequest('/oa/enterprise/page/query', param);
     },
 
-    // 导出企业数据excel  卓大
+    // 导出企业数据excel  
     exportExcel: (param) => {
         return postDownload('/oa/enterprise/exportExcel', param);
     },
@@ -46,7 +46,7 @@ export const enterpriseApi = {
     employeeList: (param) => {
         return postRequest('/oa/enterprise/employee/list', param);
     },
-    // 分页查询企业员工List  卓大
+    // 分页查询企业员工List  
     queryPageEmployeeList: (param) => {
         return postRequest('/oa/enterprise/employee/queryPage', param);
     },

@@ -15,7 +15,7 @@
         <view class="title-content"> 山东省济南市高新区齐鲁软件园 </view>
       </view>
       <view class="sub-title"> 山东省济南市高新区六边形大楼10层</view>
-      <view class="sub-title"> 快递员：卓大 188123123123</view>
+      <view class="sub-title"> 快递员： 188123123123</view>
     </view>
     <view class="view-item">
       <view class="title">

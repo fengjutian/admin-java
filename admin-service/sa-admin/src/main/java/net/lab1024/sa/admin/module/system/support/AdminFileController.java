@@ -27,7 +27,7 @@ public class AdminFileController extends SupportBaseController {
     @Resource
     private FileService fileService;
 
-    @Operation(summary = "分页查询  1024创新实验室-主任-卓大")
+    @Operation(summary = "分页查询  1024创新实验室-主任-")
     @PostMapping("/file/queryPage")
     @SaCheckPermission("support:file:query")
     public ResponseDTO<PageResult<FileVO>> queryPage(@RequestBody @Valid FileQueryForm queryForm) {

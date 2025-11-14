@@ -11,7 +11,7 @@
         <image v-else src="/src/static/images/select-people/select.png" mode=""></image>
       </view>
       <view class="item-content">
-        <view class="item-name"> 卓大 </view>
+        <view class="item-name">  </view>
         <view class="item-desc"> 架构师 </view>
       </view>
     </view>
@@ -20,7 +20,7 @@
       <view class="footer-content">
         <view class="select"> 已选择(2) </view>
         <view class="select-item-card">
-          <view class="card-item" v-for="(item, index) in 3" :key="index"> 卓大{{ index == 2 ? '...' : '' }} </view>
+          <view class="card-item" v-for="(item, index) in 3" :key="index"> {{ index == 2 ? '...' : '' }} </view>
         </view>
         <view class="submit">
           <view class="btn"> 确认 (5/12) </view>

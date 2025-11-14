@@ -4,7 +4,7 @@
 -->
 <template>
   <a-modal :open="visible" width="600px" :bodyStyle="{height:'480px'}"   title="" :closable="false" :maskClosable="true">
-    <a-row><div style="font-weight:bolder;margin: 0 auto;font-size: 16px">助力卓大抖音1000个粉丝，开播写代码🎉🎉</div> </a-row>
+    <a-row><div style="font-weight:bolder;margin: 0 auto;font-size: 16px">助力抖音1000个粉丝，开播写代码🎉🎉</div> </a-row>
     <a-row><div style="font-weight:bolder;margin: 20px auto;font-size: 15px">和一起，热爱代码，热爱生活，永远年轻，永远前行🎉🎉</div> </a-row>
     <br />
     <div class="app-qr-box">

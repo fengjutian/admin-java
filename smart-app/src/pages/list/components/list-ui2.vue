@@ -29,7 +29,7 @@
         <view class="line-border-bottom"> </view>
         <view class="item-title"> 苹果Iphone30 </view>
         <view class="item-sub-title"> 订单金额：¥5852.00 </view>
-        <view class="item-sub-title"> 客户：卓大 </view>
+        <view class="item-sub-title"> 客户： </view>
         <view class="item-sub-title"> 下单时间： 2023-08-20 19:15 </view>
       </view>
     </view>
@@ -45,7 +45,7 @@
         <view class="line-border-bottom"> </view>
         <view class="item-title"> 华为Mate100 </view>
         <view class="item-sub-title"> 订单金额：¥5852.00 </view>
-        <view class="item-sub-title"> 客户：卓大 </view>
+        <view class="item-sub-title"> 客户： </view>
         <view class="item-sub-title"> 下单时间： 2023-08-20 19:15 </view>
       </view>
     </view>

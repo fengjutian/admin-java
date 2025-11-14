@@ -26,7 +26,7 @@
   />
   <br />
   <!---------- 请求参数加密 begin ----------->
-  <a-card title="一、请求加密 Demo">
+  <a-card title="一、请求加密 ">
     <a-form class="smart-query-form">
       <a-row class="smart-query-form-row">
         <a-form-item label="姓名" class="smart-query-form-item">
@@ -53,7 +53,7 @@
   <!---------- 请求参数加密 end ----------->
   <br />
   <!---------- 返回结果解密 begin ----------->
-  <a-card title="二、返回加密 Demo">
+  <a-card title="二、返回加密 ">
     <a-form class="smart-query-form">
       <a-row class="smart-query-form-row">
         <a-form-item label="姓名" class="smart-query-form-item">
@@ -81,7 +81,7 @@
 
   <br />
   <!---------- 请求和返回都加密 begin ----------->
-  <a-card title="三、请求和返回都加密 Demo">
+  <a-card title="三、请求和返回都加密 ">
     <a-form class="smart-query-form">
       <a-row class="smart-query-form-row">
         <a-form-item label="姓名" class="smart-query-form-item">
@@ -112,7 +112,7 @@
 
   <br />
   <!---------- 测试数组 begin ----------->
-  <a-card title="四、测试数组 Demo">
+  <a-card title="四、测试数组 ">
     <a-form class="smart-query-form">
       <a-row class="smart-query-form-row">
         <a-form-item class="smart-query-form-item">
@@ -145,7 +145,7 @@
   //请求参数加密
   const requestEncryptForm = reactive({
     age: 100, // 年龄
-    name: '卓大', //姓名
+    name: '123', //姓名
   });
 
   // 参数字符串
@@ -169,7 +169,7 @@
 
   const responseEncryptForm = reactive({
     age: 100, // 年龄
-    name: '卓大', //姓名
+    name: '', //姓名
   });
 
   const responseEncryptFormStr = ref('');
@@ -187,7 +187,7 @@
 
   const form = reactive({
     age: 100, // 年龄
-    name: '卓大', //姓名
+    name: '', //姓名
   });
 
   const formStr = ref('');

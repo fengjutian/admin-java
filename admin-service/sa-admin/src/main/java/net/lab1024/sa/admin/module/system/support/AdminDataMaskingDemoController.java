@@ -25,7 +25,7 @@ import java.util.List;
 @Tag(name = SwaggerTagConst.Support.DATA_MASKING)
 public class AdminDataMaskingDemoController extends SupportBaseController {
 
-    @Operation(summary = "数据脱敏demo  1024创新实验室-主任-卓大")
+    @Operation(summary = "数据脱敏demo  1024创新实验室-主任-")
     @GetMapping("/dataMasking/demo/query")
     public ResponseDTO<List<DataVO>> query() {
 

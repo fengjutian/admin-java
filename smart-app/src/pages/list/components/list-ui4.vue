@@ -19,7 +19,7 @@
         </view>
         <view class="item-top-item">
           <view class="item-top-label"> 客户经理： </view>
-          <view class="item-title"> 卓大 </view>
+          <view class="item-title">  </view>
         </view>
         <view class="item-top-item">
           <view class="item-top-label"> 生产厂商： </view>
@@ -52,7 +52,7 @@
         </view>
         <view class="item-top-item">
           <view class="item-top-label"> 客户经理： </view>
-          <view class="item-title"> 卓大 </view>
+          <view class="item-title">  </view>
         </view>
         <view class="item-top-item">
           <view class="item-top-label"> 生产厂商： </view>

@@ -7,8 +7,8 @@
     <div class="app-qr-box">
       <div class="app-qr">
         <img :src="zhuoda" />
-        <span class="qr-desc strong"> 卓大的微信号！ </span>
-        <span class="qr-desc"> 骚扰卓大 :) </span>
+        <span class="qr-desc strong"> 的微信号！ </span>
+        <span class="qr-desc"> 骚扰 :) </span>
       </div>
       <div class="app-qr">
         <img :src="xiaozhen" />

@@ -23,12 +23,12 @@ export const goodsApi = {
     return postRequest('/goods/update', param);
   },
 
-  // 导入  卓大
+  // 导入  
   importGoods : (file) =>{
     return postRequest('/goods/importGoods',file);
   },
 
-  // 导出  卓大
+  // 导出  
   exportGoods : () =>{
     return getDownload('/goods/exportGoods');
   }

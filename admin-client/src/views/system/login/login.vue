@@ -26,7 +26,7 @@
             永远年轻，永远前行 !<br />
             <span class="author">
               <a target="_blank" href="https://zhuoda.vip" style="color: white; font-size: 13px; text-decoration: underline">
-                -主任：卓大
+                -主任：
               </a>
             </span>
           </span>
@@ -35,7 +35,7 @@
       <div class="app-qr-box">
         <div class="app-qr">
           <img :src="zhuoda" />
-          <span class="qr-desc"> 加微信，骚扰卓大 :) </span>
+          <span class="qr-desc"> 加微信，骚扰 :) </span>
         </div>
         <div class="app-qr">
           <img :src="gzh" />

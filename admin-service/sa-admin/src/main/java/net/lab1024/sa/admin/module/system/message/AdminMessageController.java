@@ -24,7 +24,7 @@ import net.lab1024.sa.base.module.support.message.service.MessageService;
 /**
  * 后管 消息路由
  *
- * : 卓大
+ * : 
  * @date: 2025/04/09 20:55
  */
 @Tag(name = AdminSwaggerTagConst.System.SYSTEM_MESSAGE)
