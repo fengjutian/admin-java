@@ -14,9 +14,6 @@ import jakarta.validation.constraints.Size;
 
 /**
  * AI服务控制器
- * 
- * @author Spring Boot AI Integration
- * @date 2024-01-01
  */
 @Slf4j
 @RestController

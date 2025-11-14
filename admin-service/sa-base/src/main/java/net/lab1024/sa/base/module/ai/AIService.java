@@ -2,7 +2,6 @@ package net.lab1024.sa.base.module.ai;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.openai.OpenAiChatModel;
-import org.springframework.ai.openai.api.OpenAiApi;
 import org.springframework.ai.chat.model.ChatResponse;
 import org.springframework.ai.chat.prompt.Prompt;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,9 +10,6 @@ import org.springframework.stereotype.Service;
 
 /**
  * AI服务类
- * 
- * @author Spring Boot AI Integration
- * @date 2024-01-01
  */
 @Slf4j
 @Service
@@ -37,17 +33,16 @@ public class AIService {
      */
     public String chat(String message) {
         try {
-            ChatResponse response = chatModel.call(new Prompt(message));
-            return response.getResult().getOutput().getText();
+          ChatResponse response = chatModel.call(new Prompt(message));
+          return response.getResult().getOutput().getText();
         } catch (Exception e) {
-            log.error("AI聊天服务异常", e);
-            return "抱歉，AI服务暂时不可用，请稍后再试。";
+          log.error("AI聊天服务异常", e);
+          return "抱歉，AI服务暂时不可用，请稍后再试。";
         }
     }
 
     /**
      * 代码生成助手
-     * 
      * @param language 编程语言
      * @param description 功能描述
      * @return 生成的代码
