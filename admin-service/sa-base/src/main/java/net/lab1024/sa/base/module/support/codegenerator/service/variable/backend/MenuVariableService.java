@@ -8,7 +8,6 @@ import java.util.Map;
 
 /**
  * 目前暂时没用到 这是一个空实现
- *
  */
 public class MenuVariableService extends CodeGenerateBaseVariableService {
 
