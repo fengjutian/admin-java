@@ -19,7 +19,6 @@ import jakarta.validation.constraints.Size;
  */
 @Slf4j
 @RestController
-@RequestMapping("/support/ai")
 @Tag(name = SwaggerTagConst.Support.AI)
 public class AIController extends SupportBaseController {
 
@@ -27,7 +26,7 @@ public class AIController extends SupportBaseController {
     private AIService aiService;
 
     @Operation(summary = "AI聊天对话")
-    @PostMapping("/chat")
+    @PostMapping("/ai/chat")
     public ResponseDTO<String> chat(@Valid @RequestBody ChatRequest request) {
         try {
             String response = aiService.chat(request.getMessage());
@@ -39,7 +38,7 @@ public class AIController extends SupportBaseController {
     }
 
     @Operation(summary = "代码生成")
-    @PostMapping("/generate-code")
+    @PostMapping("/ai/generate-code")
     public ResponseDTO<String> generateCode(@Valid @RequestBody CodeGenerateRequest request) {
         try {
             String code = aiService.generateCode(request.getLanguage(), request.getDescription());
@@ -51,7 +50,7 @@ public class AIController extends SupportBaseController {
     }
 
     @Operation(summary = "文本摘要")
-    @PostMapping("/summarize")
+    @PostMapping("/ai/summarize")
     public ResponseDTO<String> summarize(@Valid @RequestBody SummarizeRequest request) {
         try {
             String summary = aiService.summarize(request.getText());
