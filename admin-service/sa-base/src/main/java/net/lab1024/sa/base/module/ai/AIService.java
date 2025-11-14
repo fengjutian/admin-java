@@ -1,11 +1,12 @@
 package net.lab1024.sa.base.module.ai;
 
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.ai.chat.client.ChatClient;
-import org.springframework.ai.chat.prompt.Prompt;
-import org.springframework.ai.chat.prompt.PromptTemplate;
 import org.springframework.ai.openai.OpenAiChatModel;
+import org.springframework.ai.openai.api.OpenAiApi;
+import org.springframework.ai.chat.model.ChatResponse;
+import org.springframework.ai.chat.prompt.Prompt;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 /**
@@ -18,11 +19,14 @@ import org.springframework.stereotype.Service;
 @Service
 public class AIService {
 
-    private final ChatClient chatClient;
+    private final OpenAiChatModel chatModel;
+
+    @Value("${spring.ai.openai.api-key:your-openai-api-key}")
+    private String apiKey;
 
     @Autowired
     public AIService(OpenAiChatModel chatModel) {
-        this.chatClient = ChatClient.builder(chatModel).build();
+        this.chatModel = chatModel;
     }
 
     /**
@@ -33,32 +37,10 @@ public class AIService {
      */
     public String chat(String message) {
         try {
-            return chatClient.prompt()
-                    .user(message)
-                    .call()
-                    .content();
+            ChatResponse response = chatModel.call(new Prompt(message));
+            return response.getResult().getOutput().getText();
         } catch (Exception e) {
             log.error("AI聊天服务异常", e);
-            return "抱歉，AI服务暂时不可用，请稍后再试。";
-        }
-    }
-
-    /**
-     * 使用模板进行对话
-     * 
-     * @param template 模板内容
-     * @param variables 模板变量
-     * @return AI回复
-     */
-    public String chatWithTemplate(String template, Object... variables) {
-        try {
-            PromptTemplate promptTemplate = new PromptTemplate(template);
-            Prompt prompt = promptTemplate.create(variables);
-            return chatClient.prompt(prompt)
-                    .call()
-                    .content();
-        } catch (Exception e) {
-            log.error("AI模板对话服务异常", e);
             return "抱歉，AI服务暂时不可用，请稍后再试。";
         }
     }
@@ -71,18 +53,15 @@ public class AIService {
      * @return 生成的代码
      */
     public String generateCode(String language, String description) {
-        String template = """
-            请为以下功能生成{language}代码：
-            功能描述：{description}
-            
-            要求：
-            1. 代码要简洁、高效
-            2. 包含必要的注释
-            3. 遵循最佳实践
-            4. 只返回代码，不要其他说明
-            """;
+        String template = "请为以下功能生成" + language + "代码：\n" +
+                "功能描述：" + description + "\n" +
+                "要求：\n" +
+                "1. 代码要简洁、高效\n" +
+                "2. 包含必要的注释\n" +
+                "3. 遵循最佳实践\n" +
+                "4. 只返回代码，不要其他说明";
         
-        return chatWithTemplate(template, "language", language, "description", description);
+        return chat(template);
     }
 
     /**
@@ -92,12 +71,7 @@ public class AIService {
      * @return 摘要内容
      */
     public String summarize(String text) {
-        String template = """
-            请为以下文本生成简洁的摘要（不超过100字）：
-            
-            {text}
-            """;
-        
-        return chatWithTemplate(template, "text", text);
+        String template = "请为以下文本生成简洁的摘要（不超过100字）：\n\n" + text;
+        return chat(template);
     }
 }
