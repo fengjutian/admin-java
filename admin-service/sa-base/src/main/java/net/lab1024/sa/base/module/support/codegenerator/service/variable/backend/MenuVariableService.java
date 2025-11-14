@@ -9,8 +9,6 @@ import java.util.Map;
 /**
  * 目前暂时没用到 这是一个空实现
  *
- *  zhoumingfa
- * @date 2024/8/13
  */
 public class MenuVariableService extends CodeGenerateBaseVariableService {
 

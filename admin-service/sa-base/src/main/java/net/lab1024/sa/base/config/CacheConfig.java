@@ -15,7 +15,6 @@ import org.springframework.data.redis.serializer.RedisSerializationContext;
 /**
  * 缓存配置
  *
- *  zhoumingfa
  * @date 2025/03/28
  */
 @Configuration

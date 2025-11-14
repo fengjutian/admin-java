@@ -9,8 +9,6 @@ import java.time.LocalDateTime;
 
 /**
  * Mybatis Plus 插入或者更新时指定字段设置值
- *
- *  zhoumingfa
  */
 @Component
 @Slf4j
