@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 /**
  * 定时任务 执行记录 实体类
  *
- * @author huke
+ *  huke
  * @date 2024/6/17 21:30
  */
 @Data

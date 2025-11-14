@@ -8,7 +8,7 @@ import net.lab1024.sa.base.common.enumeration.BaseEnum;
 /**
  * 定时任务 发布/订阅消息对象
  *
- * @author huke
+ *  huke
  * @date 2024/6/20 21:10
  */
 @Data

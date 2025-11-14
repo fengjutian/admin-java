@@ -7,7 +7,7 @@ import net.lab1024.sa.base.common.enumeration.BaseEnum;
 /**
  * job 任务触发类型 枚举类
  *
- * @author huke
+ *  huke
  * @date 2024年6月29日
  **/
 @AllArgsConstructor

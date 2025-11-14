@@ -10,21 +10,21 @@ import { postRequest, getRequest } from '/@/lib/axios';
 export const ${name.lowerCamel}Api = {
 
   /**
-   * 分页查询  @author  ${basic.frontAuthor}
+   * 分页查询    ${basic.frontAuthor}
    */
   queryPage : (param) => {
     return postRequest('/${name.lowerCamel}/queryPage', param);
   },
 
   /**
-   * 增加  @author  ${basic.frontAuthor}
+   * 增加    ${basic.frontAuthor}
    */
   add: (param) => {
       return postRequest('/${name.lowerCamel}/add', param);
   },
 
   /**
-   * 修改  @author  ${basic.frontAuthor}
+   * 修改    ${basic.frontAuthor}
    */
   update: (param) => {
       return postRequest('/${name.lowerCamel}/update', param);
@@ -33,7 +33,7 @@ export const ${name.lowerCamel}Api = {
 
 #if($deleteInfo.isSupportDetail)
   /**
-   * 获取详情  @author  ${basic.frontAuthor}
+   * 获取详情    ${basic.frontAuthor}
    */
   getDetail: (id) => {
       return getRequest(`/${name.lowerCamel}/getDetail/\${id}`);
@@ -44,7 +44,7 @@ export const ${name.lowerCamel}Api = {
 #if($deleteInfo.isSupportDelete)
     #if($deleteInfo.deleteEnum == 'Single')
   /**
-   * 删除  @author  ${basic.frontAuthor}
+   * 删除    ${basic.frontAuthor}
    */
   delete: (id) => {
       return getRequest(`/${name.lowerCamel}/delete/${id}`);
@@ -52,7 +52,7 @@ export const ${name.lowerCamel}Api = {
     #end
     #if($deleteInfo.deleteEnum == 'Batch')
   /**
-   * 批量删除  @author  ${basic.frontAuthor}
+   * 批量删除    ${basic.frontAuthor}
    */
   batchDelete: (idList) => {
       return postRequest('/${name.lowerCamel}/batchDelete', idList);
@@ -60,14 +60,14 @@ export const ${name.lowerCamel}Api = {
     #end
     #if($deleteInfo.deleteEnum == 'SingleAndBatch')
   /**
-   * 删除  @author  ${basic.frontAuthor}
+   * 删除    ${basic.frontAuthor}
    */
   delete: (id) => {
       return getRequest(`/${name.lowerCamel}/delete/${id}`);
   },
 
   /**
-   * 批量删除  @author  ${basic.frontAuthor}
+   * 批量删除    ${basic.frontAuthor}
    */
   batchDelete: (idList) => {
       return postRequest('/${name.lowerCamel}/batchDelete', idList);

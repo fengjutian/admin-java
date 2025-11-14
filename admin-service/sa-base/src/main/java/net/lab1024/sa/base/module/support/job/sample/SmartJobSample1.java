@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 /**
  * 定时任务 示例1
  *
- * @author huke
+ *  huke
  * @date 2024/6/17 21:30
  */
 @Slf4j

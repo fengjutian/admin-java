@@ -27,20 +27,20 @@ public class AdminReloadController extends SupportBaseController {
     @Resource
     private ReloadService reloadService;
 
-    @Operation(summary = "查询reload列表 @author 开云")
+    @Operation(summary = "查询reload列表  开云")
     @GetMapping("/reload/query")
     public ResponseDTO<List<ReloadItemVO>> query() {
         return reloadService.query();
     }
 
-    @Operation(summary = "获取reload result @author 开云")
+    @Operation(summary = "获取reload result  开云")
     @GetMapping("/reload/result/{tag}")
     @SaCheckPermission("support:reload:result")
     public ResponseDTO<List<ReloadResultVO>> queryReloadResult(@PathVariable("tag") String tag) {
         return reloadService.queryReloadItemResult(tag);
     }
 
-    @Operation(summary = "通过tag更新标识 @author 开云")
+    @Operation(summary = "通过tag更新标识  开云")
     @PostMapping("/reload/update")
     @SaCheckPermission("support:reload:update")
     public ResponseDTO<String> updateByTag(@RequestBody @Valid ReloadForm reloadForm) {

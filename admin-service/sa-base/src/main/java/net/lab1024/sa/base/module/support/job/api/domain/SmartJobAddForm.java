@@ -12,7 +12,7 @@ import org.hibernate.validator.constraints.Length;
 /**
  * 定时任务 添加
  *
- * @author huke
+ *  huke
  * @date 2024/12/19 19:30
  */
 @Data

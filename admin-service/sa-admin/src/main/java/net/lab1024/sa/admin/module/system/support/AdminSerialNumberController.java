@@ -42,7 +42,7 @@ public class AdminSerialNumberController extends SupportBaseController {
     @Resource
     private SerialNumberRecordService serialNumberRecordService;
 
-    @Operation(summary = "生成单号 @author 卓大")
+    @Operation(summary = "生成单号' ")
     @PostMapping("/serialNumber/generate")
     @SaCheckPermission("support:serialNumber:generate")
     public ResponseDTO<List<String>> generate(@RequestBody @Valid SerialNumberGenerateForm generateForm) {
@@ -53,13 +53,13 @@ public class AdminSerialNumberController extends SupportBaseController {
         return ResponseDTO.ok(serialNumberService.generate(serialNumberIdEnum, generateForm.getCount()));
     }
 
-    @Operation(summary = "获取所有单号定义 @author 卓大")
+    @Operation(summary = "获取所有单号定义' ")
     @GetMapping("/serialNumber/all")
     public ResponseDTO<List<SerialNumberEntity>> getAll() {
         return ResponseDTO.ok(serialNumberDao.selectList(null));
     }
 
-    @Operation(summary = "获取生成记录 @author 卓大")
+    @Operation(summary = "获取生成记录' ")
     @PostMapping("/serialNumber/queryRecord")
     @SaCheckPermission("support:serialNumber:record")
     public ResponseDTO<PageResult<SerialNumberRecordEntity>> queryRecord(@RequestBody @Valid SerialNumberRecordQueryForm queryForm) {

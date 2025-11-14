@@ -8,7 +8,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * smart job 配置
  * 与配置文件参数对应
  *
- * @author huke
+ *  huke
  * @date 2024/6/17 21:30
  */
 @ConfigurationProperties(prefix = SmartJobConfig.CONFIG_PREFIX)

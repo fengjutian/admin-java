@@ -22,7 +22,7 @@ public class ConfigController extends SupportBaseController {
     @Resource
     private ConfigService configService;
 
-    @Operation(summary = "查询配置详情 @author 卓大")
+    @Operation(summary = "查询配置详情' ")
     @GetMapping("/config/queryByKey")
     public ResponseDTO<ConfigVO> queryByKey(@RequestParam String configKey) {
         return ResponseDTO.ok(configService.getConfig(configKey));

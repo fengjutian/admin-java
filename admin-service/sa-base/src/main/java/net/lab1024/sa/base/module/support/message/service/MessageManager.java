@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 /**
  * 消息manager
  *
- * @author luoyi
+ *  luoyi
  * @date 2024/06/22 20:20
  */
 @Service

@@ -27,7 +27,7 @@ import java.util.concurrent.TimeUnit;
  * smart job 执行端管理
  * 分布式系统之间 用发布/订阅消息的形式 来管理多个job
  *
- * @author huke
+ *  huke
  * @date 2024/6/22 20:31
  */
 @ConditionalOnBean(SmartJobAutoConfiguration.class)

@@ -12,7 +12,7 @@ import org.hibernate.validator.constraints.Length;
 /**
  * 类目 基础属性 DTO 类
  *
- * @author 胡克
+ *  胡克
  * @date 2021/1/20 16:17
  */
 @Data

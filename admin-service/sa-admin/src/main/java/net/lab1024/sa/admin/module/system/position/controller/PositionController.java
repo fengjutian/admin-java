@@ -29,38 +29,38 @@ public class PositionController {
     @Resource
     private PositionService positionService;
 
-    @Operation(summary = "分页查询 @author kaiyun")
+    @Operation(summary = "分页查询  kaiyun")
     @PostMapping("/position/queryPage")
     public ResponseDTO<PageResult<PositionVO>> queryPage(@RequestBody @Valid PositionQueryForm queryForm) {
         return ResponseDTO.ok(positionService.queryPage(queryForm));
     }
 
-    @Operation(summary = "添加 @author kaiyun")
+    @Operation(summary = "添加  kaiyun")
     @PostMapping("/position/add")
     public ResponseDTO<String> add(@RequestBody @Valid PositionAddForm addForm) {
         return positionService.add(addForm);
     }
 
-    @Operation(summary = "更新 @author kaiyun")
+    @Operation(summary = "更新  kaiyun")
     @PostMapping("/position/update")
     public ResponseDTO<String> update(@RequestBody @Valid PositionUpdateForm updateForm) {
         return positionService.update(updateForm);
     }
 
-    @Operation(summary = "批量删除 @author kaiyun")
+    @Operation(summary = "批量删除  kaiyun")
     @PostMapping("/position/batchDelete")
     public ResponseDTO<String> batchDelete(@RequestBody ValidateList<Long> idList) {
         return positionService.batchDelete(idList);
     }
 
-    @Operation(summary = "单个删除 @author kaiyun")
+    @Operation(summary = "单个删除  kaiyun")
     @GetMapping("/position/delete/{positionId}")
     public ResponseDTO<String> batchDelete(@PathVariable Long positionId) {
         return positionService.delete(positionId);
     }
 
 
-    @Operation(summary = "不分页查询 @author kaiyun")
+    @Operation(summary = "不分页查询  kaiyun")
     @GetMapping("/position/queryList")
     public ResponseDTO<List<PositionVO>> queryList() {
         return ResponseDTO.ok(positionService.queryList());

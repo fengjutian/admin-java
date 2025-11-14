@@ -3,7 +3,7 @@ package net.lab1024.sa.base.module.support.job.core;
 /**
  * 定时任务 执行接口
  *
- * @author huke
+ *  huke
  * @date 2024/6/17 21:30
  */
 public interface SmartJob {

@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 定时任务 vo
  *
- * @author huke
+ *  huke
  * @date 2024/6/17 21:30
  */
 @Data

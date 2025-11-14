@@ -14,17 +14,17 @@ export const messageApi = {
     return getRequest(`/support/message/read/${messageId}`);
   },
 
-  //通知消息-分页查询   @author 卓大
+  //通知消息-分页查询    卓大
   queryAdminMessage: (param) => {
     return postRequest('/message/query', param);
   },
 
-  //通知消息-新建  @author 卓大
+  //通知消息-新建   卓大
   sendMessages: (param) => {
     return postRequest('/message/sendMessages', param);
   },
 
-  //通知消息-删除 @author 卓大
+  //通知消息-删除  卓大
   deleteMessage: (messageId) => {
     return getRequest(`/message/delete/${messageId}`);
   },

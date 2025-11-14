@@ -47,17 +47,17 @@ export const dictApi = {
     return getRequest(`/support/dict/dictData/queryDictData/${dictId}`);
   },
 
-  // 字典数据 添加 - @author 卓大
+  // 字典数据 添加 -  卓大
   addDictData: (param) => {
     return postRequest('/support/dict/dictData/add', param);
   },
 
-  // 字典数据 更新- @author 卓大
+  // 字典数据 更新-  卓大
   updateDictData: (param) => {
     return postRequest('/support/dict/dictData/update', param);
   },
 
-  // 字典数据-删除- @author 卓大
+  // 字典数据-删除-  卓大
   batchDeleteDictData: (dictDataIdList) => {
     return postRequest('/support/dict/dictData/batchDelete', dictDataIdList);
   },

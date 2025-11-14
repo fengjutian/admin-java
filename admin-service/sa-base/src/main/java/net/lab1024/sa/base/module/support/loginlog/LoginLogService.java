@@ -27,7 +27,7 @@ public class LoginLogService {
     private LoginLogDao loginLogDao;
 
     /**
-     * @author 卓大
+     *' 
      * @description 分页查询
      */
     public ResponseDTO<PageResult<LoginLogVO>> queryByPage(LoginLogQueryForm queryForm) {
@@ -38,7 +38,7 @@ public class LoginLogService {
     }
 
     /**
-     * @author 卓大
+     *' 
      * @description 添加
      */
     public void log(LoginLogEntity loginLogEntity) {
@@ -53,7 +53,7 @@ public class LoginLogService {
     /**
      * 查询上一个登录记录
      *
-     * @author 卓大
+     *' 
      * @description 查询上一个登录记录
      */
     public LoginLogVO queryLastByUserId(Long userId, UserTypeEnum userTypeEnum, LoginLogResultEnum loginLogResultEnum) {

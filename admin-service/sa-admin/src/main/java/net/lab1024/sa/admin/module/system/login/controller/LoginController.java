@@ -71,7 +71,7 @@ public class LoginController {
 
     @NoNeedLogin
     @GetMapping("/login/sendEmailCode/{loginName}")
-    @Operation(summary = "获取邮箱登录验证码 @author 卓大")
+    @Operation(summary = "获取邮箱登录验证码' ")
     public ResponseDTO<String> sendEmailCode(@PathVariable String loginName) {
         return loginService.sendEmailCode(loginName);
     }
@@ -79,7 +79,7 @@ public class LoginController {
 
     @NoNeedLogin
     @GetMapping("/login/getTwoFactorLoginFlag")
-    @Operation(summary = "获取双因子登录标识 @author 卓大")
+    @Operation(summary = "获取双因子登录标识' ")
     public ResponseDTO<Boolean> getTwoFactorLoginFlag() {
         // 双因子登录
         boolean twoFactorLoginEnabled = level3ProtectConfigService.isTwoFactorLoginEnabled();

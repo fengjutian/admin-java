@@ -25,13 +25,13 @@ public class RoleDataScopeController {
     @Resource
     private RoleDataScopeService roleDataScopeService;
 
-    @Operation(summary = "获取某角色所设置的数据范围 @author 卓大")
+    @Operation(summary = "获取某角色所设置的数据范围' ")
     @GetMapping("/role/dataScope/getRoleDataScopeList/{roleId}")
     public ResponseDTO<List<RoleDataScopeVO>> dataScopeListByRole(@PathVariable Long roleId) {
         return roleDataScopeService.getRoleDataScopeList(roleId);
     }
 
-    @Operation(summary = "批量设置某角色数据范围 @author 卓大")
+    @Operation(summary = "批量设置某角色数据范围' ")
     @PostMapping("/role/dataScope/updateRoleDataScopeList")
     @SaCheckPermission("system:role:dataScope:update")
     public ResponseDTO<String> updateRoleDataScopeList(@RequestBody @Valid RoleDataScopeUpdateForm roleDataScopeUpdateForm) {

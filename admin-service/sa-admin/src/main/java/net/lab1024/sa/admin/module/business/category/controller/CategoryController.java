@@ -28,34 +28,34 @@ public class CategoryController {
     @Resource
     private CategoryService categoryService;
 
-    @Operation(summary = "添加类目 @author 胡克")
+    @Operation(summary = "添加类目  胡克")
     @PostMapping("/category/add")
     @SaCheckPermission("category:add")
     public ResponseDTO<String> add(@RequestBody @Valid CategoryAddForm addForm) {
         return categoryService.add(addForm);
     }
 
-    @Operation(summary = "更新类目 @author 胡克")
+    @Operation(summary = "更新类目  胡克")
     @PostMapping("/category/update")
     @SaCheckPermission("category:update")
     public ResponseDTO<String> update(@RequestBody @Valid CategoryUpdateForm updateForm) {
         return categoryService.update(updateForm);
     }
 
-    @Operation(summary = "查询类目详情 @author 胡克")
+    @Operation(summary = "查询类目详情  胡克")
     @GetMapping("/category/{categoryId}")
     public ResponseDTO<CategoryVO> queryDetail(@PathVariable Long categoryId) {
         return categoryService.queryDetail(categoryId);
     }
 
-    @Operation(summary = "查询类目层级树 @author 胡克")
+    @Operation(summary = "查询类目层级树  胡克")
     @PostMapping("/category/tree")
     @SaCheckPermission("category:tree")
     public ResponseDTO<List<CategoryTreeVO>> queryTree(@RequestBody @Valid CategoryTreeQueryForm queryForm) {
         return categoryService.queryTree(queryForm);
     }
 
-    @Operation(summary = "删除类目 @author 胡克")
+    @Operation(summary = "删除类目  胡克")
     @GetMapping("/category/delete/{categoryId}")
     @SaCheckPermission("category:delete")
     public ResponseDTO<String> delete(@PathVariable Long categoryId) {

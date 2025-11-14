@@ -23,14 +23,14 @@ public class RoleMenuController {
     @Resource
     private RoleMenuService roleMenuService;
 
-    @Operation(summary = "更新角色权限 @author 卓大")
+    @Operation(summary = "更新角色权限' ")
     @PostMapping("/role/menu/updateRoleMenu")
     @SaCheckPermission("system:role:menu:update")
     public ResponseDTO<String> updateRoleMenu(@Valid @RequestBody RoleMenuUpdateForm updateDTO) {
         return roleMenuService.updateRoleMenu(updateDTO);
     }
 
-    @Operation(summary = "获取角色关联菜单权限 @author 卓大")
+    @Operation(summary = "获取角色关联菜单权限' ")
     @GetMapping("/role/menu/getRoleSelectedMenu/{roleId}")
     public ResponseDTO<RoleMenuTreeVO> getRoleSelectedMenu(@PathVariable Long roleId) {
         return roleMenuService.getRoleSelectedMenu(roleId);

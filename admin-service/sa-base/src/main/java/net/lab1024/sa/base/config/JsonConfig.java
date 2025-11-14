@@ -1,21 +1,23 @@
 package net.lab1024.sa.base.config;
 
-import cn.hutool.core.date.DatePattern;
-import cn.hutool.core.date.LocalDateTimeUtil;
-import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
-import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer;
-import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateSerializer;
-import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer;
-import net.lab1024.sa.base.common.json.serializer.LongJsonSerializer;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeParseException;
+
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.boot.autoconfigure.jackson.Jackson2ObjectMapperBuilderCustomizer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.convert.converter.Converter;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeParseException;
+import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
+import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer;
+import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateSerializer;
+import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer;
+
+import cn.hutool.core.date.DatePattern;
+import cn.hutool.core.date.LocalDateTimeUtil;
+import net.lab1024.sa.base.common.json.serializer.LongJsonSerializer;
 
 /**
  * json 序列化配置
@@ -39,7 +41,7 @@ public class JsonConfig {
     /**
      * string 转为 LocalDateTime 配置类
      *
-     * @author 卓大
+     *' 
      */
     @Configuration
     public static class StringToLocalDateTime implements Converter<String, LocalDateTime> {
@@ -63,7 +65,7 @@ public class JsonConfig {
     /**
      * string 转为 LocalDate 配置类
      *
-     * @author 卓大
+     *' 
      */
     @Configuration
     public static class StringToLocalDate implements Converter<String, LocalDate> {

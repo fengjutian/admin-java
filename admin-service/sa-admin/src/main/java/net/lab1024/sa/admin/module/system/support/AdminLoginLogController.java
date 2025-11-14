@@ -28,14 +28,14 @@ public class AdminLoginLogController extends SupportBaseController {
     @Resource
     private LoginLogService loginLogService;
 
-    @Operation(summary = "分页查询 @author 卓大")
+    @Operation(summary = "分页查询' ")
     @PostMapping("/loginLog/page/query")
     @SaCheckPermission("support:loginLog:query")
     public ResponseDTO<PageResult<LoginLogVO>> queryByPage(@RequestBody LoginLogQueryForm queryForm) {
         return loginLogService.queryByPage(queryForm);
     }
 
-    @Operation(summary = "分页查询当前登录人信息 @author 善逸")
+    @Operation(summary = "分页查询当前登录人信息  善逸")
     @PostMapping("/loginLog/page/query/login")
     public ResponseDTO<PageResult<LoginLogVO>> queryByPageLogin(@RequestBody LoginLogQueryForm queryForm) {
         RequestUser requestUser = SmartRequestUtil.getRequestUser();

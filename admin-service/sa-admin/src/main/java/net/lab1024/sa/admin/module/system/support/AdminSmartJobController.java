@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.*;
 /**
  * 定时任务 管理接口
  *
- * @author huke
+ *  huke
  * @date 2024/6/17 20:41
  */
 @Tag(name = SwaggerTagConst.Support.JOB)

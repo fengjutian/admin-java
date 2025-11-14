@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 /**
  * 枚举 序列化
  *
- * @author huke
+ *  huke
  * @date 2024年6月29日
  */
 public class EnumSerializer extends JsonSerializer<Object> implements ContextualSerializer {

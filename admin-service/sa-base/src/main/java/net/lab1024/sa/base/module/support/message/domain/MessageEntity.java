@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 /**
  * 消息实体
  *
- * @author luoyi
+ *  luoyi
  * @date 2024/06/22 20:20
  */
 @Data

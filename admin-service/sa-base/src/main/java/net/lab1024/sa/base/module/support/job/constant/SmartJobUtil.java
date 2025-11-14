@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * smart job util
  *
- * @author huke
+ *  huke
  * @date 2024/6/18 20:00
  */
 public class SmartJobUtil {

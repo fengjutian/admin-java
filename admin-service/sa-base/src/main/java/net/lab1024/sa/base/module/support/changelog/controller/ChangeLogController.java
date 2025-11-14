@@ -25,14 +25,14 @@ public class ChangeLogController extends SupportBaseController {
     @Resource
     private ChangeLogService changeLogService;
 
-    @Operation(summary = "分页查询 @author 卓大")
+    @Operation(summary = "分页查询' ")
     @PostMapping("/changeLog/queryPage")
     public ResponseDTO<PageResult<ChangeLogVO>> queryPage(@RequestBody @Valid ChangeLogQueryForm queryForm) {
         return ResponseDTO.ok(changeLogService.queryPage(queryForm));
     }
 
 
-    @Operation(summary = "变更内容详情 @author 卓大")
+    @Operation(summary = "变更内容详情' ")
     @GetMapping("/changeLog/getDetail/{changeLogId}")
     public ResponseDTO<ChangeLogVO> getDetail(@PathVariable Long changeLogId) {
         return ResponseDTO.ok(changeLogService.getById(changeLogId));
